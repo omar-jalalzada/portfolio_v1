@@ -1,7 +1,16 @@
+/*
 $d_width: 492px;
 $d_height: 492px;
 $t_width: 742px;
 $t_neg_margin: -248px;
+*/
+$box_width: 194px;
+$box_height: 194px;
+$d_width: 398px;
+$d_height: 398px;
+$t_width: 600px;
+$t_neg_margin: -200px;
+
 @mixin double_width($d_width){
   width: $d_width;
 }
@@ -11,15 +20,19 @@ $t_neg_margin: -248px;
 @mixin tripple_width($t_width){
   width: $t_width;
 }
-
+//whats
 
 $ipad_d_width: 370px !important;
 $ipad_d_height: 370px !important;
 $ipad_t_neg_margin: -187px !important;
+
+$ipad_t_width: 558px !important;
 @mixin ipad_double_width($ipad_d_width){
   width: $ipad_d_width;
+}
+@mixin ipad_triple_width($ipad_t_width){
+  width: $ipad_t_width;
 }
 @mixin ipad_double_height($ipad_d_height){
   height: $ipad_d_height;
 }
-

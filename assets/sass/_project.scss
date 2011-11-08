@@ -1,0 +1,116 @@
+#container {
+  #wrapper.project_wrapper {
+    .nav {
+      #header {
+        #nav {
+          height: 30px;
+        }
+        #sub_nav{
+          height: 20px;
+          position: relative;
+          width: 100%;
+          ul {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 0;
+            display: block;
+            overflow: hidden;
+            li { 
+              color: #333;
+              font-family: 'BigNoodle', Arial, sans-serif;
+              float: right;
+              display: block;
+              margin-right: 8px;
+              font-size: 16px;
+              &:first-child {
+                margin-right: 0;
+              }
+              a {
+                color: #666;
+                text-shadow: 0 1px 1px #fff;
+                &:hover {
+                  color: #999;
+                  cursor: pointer;
+                  text-shadow: 0 1px 5px #fff;
+                }
+                &.active {
+                  opacity: 0.3;
+                }
+              }
+            }
+          }
+        }
+      }
+    } // Ending #nav
+    
+    .info {
+      display: block;
+      float: left;
+      margin: 10px 1%;
+      width: 98%;
+      border: 1px solid red;
+      font-family: 'BigNoodle', Arial, sans-serif;
+      color: #333;
+      text-shadow: 0 1px 1px #fff;
+      .info_title {
+        display: block;
+        padding: 10px;
+        font-size: 22px;
+      }
+      .info_content {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+      }
+     
+    }
+    .img {
+      height: 450px;
+      display: block;
+      float: left;
+      margin: 15px 1%;
+      width: 98%;
+      padding: 5px;
+      .pic {
+        float: left;
+        width: 74%;
+        height: 96%;
+        display: block;
+        margin: 0;
+        padding: 2%;
+        font-family: 'BigNoodle', Arial, sans-serif;
+        text-align: left;
+        border: 1px solid red;
+        @include background-size(100%);
+      }
+      p {
+        float: right;
+        width: 17%;
+        padding: 2%;
+        margin: 0;
+        height: 96%;
+        display: block;
+        border: 1px solid blue;
+      }
+    }
+  }
+  
+  
+  
+  
+  .project_pantone {
+    #img1 {
+      .pic {
+        background: url('../img/project/pantone/1.jpg') no-repeat center;
+      }
+    }
+  }
+}
+@media only screen and  (max-width: 768px) {
+  #wrapper.project_wrapper {
+    .img {
+      height: 335px !important;
+    }
+  }
+}

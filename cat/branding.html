@@ -3,19 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
 	<title>Omar's Portfolio - Branding</title>
 	<meta name="description" content="Omar's Jalalzada Portfolio Site">
 	<meta name="author" content="Omar Jalalzada">
   <meta name="Copyright" content="Copyright © 2011 Omar Jalalzada">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="../assets/stylesheets/main.css">
 </head>
 <body>
+  <!-- Contact me modal container -->
+  <div id="contact_me_container">
+    <div id="contact_content">
+      <p>
+        <span><a class="contact" href="mailto:theboss@ojtwisted.com">Email Me: theboss@ojtwisted.com</a></span>
+        <span>Call Me: (650) 388-0106</span>
+        <span><a class="twitter" target="_blank" href="http://twitter.com/#!/ojtwisted">Follow Me: Twitter</a></span>
+        <span><a class="linkedin" target="_blank" href="http://www.linkedin.com/pub/omar-jalalzada/1b/bb2/93b">Connect On: Linkedin</a></span>
+      </p>
+    </div>
+    <div id="bg_module"></div>
+  </div>
 
   <div id="container">
+    
+    <div id="contact_me">
+      <span class='content'>Contact Me</span>
+    </div>
     
     <div id="header"> 
       <div id="logo"></div>
@@ -24,71 +38,93 @@
     
   	<div id="main" role="main">
       
-      <div id="wrapper">
+      <div id="wrapper" class="cat_wrapper branding_wrapper">
+        
 
         <div class="box logo" id="box1">
-          <h1 class="ir">Omar Jalalzada's Portfolio</h1>
+          <a href="/"><h1 class="ir">Omar Jalalzada's Portfolio</h1></a>
         </div> <!-- closing #box1 -->
-        <div class="box" id="box2"><!-- Empty Space--></div>
-        <div class="box nav" id="box3">
+        
+        <div class="box empty" id="box2"><!-- Empty Space--></div>
+        <div class="box empty nav" id="box3">
 
           <div id="header">
 
             <div id="main_title">
-              <h2>Branding</h2>
+              <h2>BRANDING</h2>
             </div> <!-- Closing #main_title -->
 
             <div id="nav">
               <ul>
-                <li class='branding'>Branding</li>
-                <li class='mobile'>Mobile Sites</li>
-                <li class='web'>Web Design</li>
-                <li class='imaging'>Imaging/Photography</li>
-                <li class='dd'>3D</li>
-                <li class='art'>Fine Art</li>
-                <li class='motion'>Motion Graphics/Audio</li>
+                <li class='motion'><a href="about_me.html">About Me</a></li>
+                <li class='dd'><a href="3d.html">3D</a></li>
+                <li class='art'><a href="fine_art.html">Fine Art</a></li>
+                <li class='motion'><a href="m_graphics.html">Motion Graphics/Audio</a></li>
+                <li class='imaging'><a href="imaging.html">Imaging/Photography</a></li>
+                <li class='web'><a href="web_design.html">Web Design</a></li>
+                <li class='mobile'><a href="mobile.html">Mobile Sites</a></li>
+                <li class='branding'><a class="active">Branding</a></li>
               </ul>
             </div> <!-- Closing #nav -->
           </div> <!-- Closing #nav_conatainer -->
           
         </div> <!-- Closing #box3 -->
+
+        <a class="row" href="../projects/branding/agrion.html" id="row1">
+          <div class="pic" ></div>
+          <div class="title">
+            <h4>Agrion</h4>
+            <h5>Global network for cleantech compaines</h5>
+          </div>
+        </a> <!-- Closing #row4 -->
         
+        <a class="row" href="../projects/branding/pantone.html" id="row2">
+          <div class="pic" ></div>
+          <div class="title">
+            <h4>Tell-a-Tone</h4>
+            <h5>Pantone's mobile color detectors</h5>
+          </div>
+        </a> <!-- Closing #row1 -->
+        
+        <a class="row" href="../projects/branding/zeal.html" id="row3">
+          <div class="pic" ></div>
+          <div class="title">
+            <h4>Zeal</h4>
+            <h5>Organic Energy Drink</h5>
+          </div>
+        </a> <!-- Closing #row2 -->
 
-<!--
-        <div class="box" id="box4"></div>
-        <div class="box" id="box5"></div>
+        <a class="row" href="../projects/branding/angels.html" id="row4">
+          <div class="pic" ></div>
+          <div class="title">
+            <h4>Island Earth</h4>
+            <h5>Organic Farmers Market</h5>
+          </div>
+        </a> <!-- Closing #row3-->
 
-        <div class="box blue_angels" id="box6"></div>
-        <div class="box" id="box7"></div>
-        <div class="box" id="box8"></div>
-        <div class="box" id="box9"></div>
-        <div class="box" id="box10"></div>
-        <div class="box" id="box11"></div>
-        <div class="box" id="box12"></div>
-        <div class="box" id="box13"></div>
-        <div class="box" id="box14"></div>
-        <div class="box" id="box15"></div>
-        <div class="box" id="box16"></div>
-        <div class="box" id="box17"></div>
-        <div class="box" id="box18"></div>
-        <div class="box" id="box19"></div>
-        <div class="box" id="box20"></div>
--->
-      </div> <!-- ending wrapper -->
+        <a class="row" href="../projects/branding/angels.html" id="row5">
+          <div class="pic" ></div>
+          <div class="title">
+            <h4>Blue Angles</h4>
+            <h5>Photography</h5>
+          </div>
+        </a> <!-- Closing #row5 -->
 
-      <div id="brand_container">
-        <div class="brand_row"></div>
-        <div class="brand_row"></div>
-        <div class="brand_row"></div>
-        <div class="brand_row"></div>
-        <div class="brand_row"></div>
-      </div>
+
+
+      </div> <!-- ending wrapper cat_wrapper -->
       
   	</div>
   </div> <!--! end of #container -->
+
+  
+  <div id="footer">
+    <p class='copyright'>&#169 Omar Jalalzada 2011</p>
+  </div>
   
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
-  <script src="../assets/js/libs/jquery-1.6.2.min.js"></script>
+<!--   <script src="assets/js/libs/jquery-1.6.2.min.js"></script> -->
+  <script src="../assets/js/libs/uranium.js"></script>
   <script src="../assets/js/script.js"></script>
   <!-- end scripts-->
   

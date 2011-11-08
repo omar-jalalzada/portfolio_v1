@@ -1,0 +1,84 @@
+.cat_wrapper {
+  .row {
+    height: 150px;
+    display: block;
+    float: left;
+    margin: 10px 1%;
+    width: 98%;
+    padding: 5px;
+    .title {
+      float: right;
+      width: 21%;
+      height: 96%;
+      display: block;
+      margin: 0;
+      padding: 2%;
+      font-family: 'BigNoodle', Arial, sans-serif;
+      text-align: left;
+      h4, h5 {
+        color: #444;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        text-shadow: 0 1px 1px #fff;
+      }
+      h4 {
+        font-size: 32px;
+      }
+      h5 {
+        opacity: 0.5;
+      }
+    }
+    .pic {
+      float: left;
+      width: 74%;
+      height: 100%;
+      
+      @include border-radius(3px);
+      @include box-shadow(0 3px 1px rgba(0,0,0,0.8), 0 -1px 1px rgba(250,250,250,0.9));
+    }
+  }
+}
+.branding_wrapper {
+  #row1 {
+    .pic {
+      background: url('../img/cat/agrion.jpg') no-repeat center;
+    }
+  }
+  #row2 {
+    .pic {
+      background: url('../img/cat/pantone.jpg') no-repeat center;
+    }
+  }
+  #row3 {
+    .pic {
+      background: url('../img/cat/zeal.jpg') no-repeat center;
+    }
+  }
+  #row4 {
+    .pic {
+      background: url('../img/cat/island.jpg') no-repeat center;
+    }
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .cat_wrapper {
+    .row {
+      .title {
+        width: 31%;
+        h4 {
+          font-size: 22px;
+        }
+        h5 {
+          font-size: 14px;
+          opacity: 0.5;
+        }
+      }
+      .pic {
+        width: 64%;
+      }
+    }
+  }
+}
