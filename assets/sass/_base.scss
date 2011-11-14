@@ -41,8 +41,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink!
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #00A7C9; color: #fff; text-shadow: none; }
+::selection { background: #00A7C9; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -249,8 +249,28 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 }
 
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+    src: url('fonts/TitilliumText22L003-webfont.eot');
+    src: url('fonts/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumText22L003-webfont.woff') format('woff'),
+         url('fonts/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('fonts/TitilliumText22L003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'TitilliumText22LBold';
+    src: url('fonts/TitilliumText22L005-webfont.eot');
+    src: url('fonts/TitilliumText22L005-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitilliumText22L005-webfont.woff') format('woff'),
+         url('fonts/TitilliumText22L005-webfont.ttf') format('truetype'),
+         url('fonts/TitilliumText22L005-webfont.svg#TitilliumText22LBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 /*
 @media only screen and (min-width: 480px) {

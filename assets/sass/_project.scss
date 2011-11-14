@@ -12,22 +12,22 @@
           ul {
             position: absolute;
             bottom: 0;
-            right: 0;
+            left: 44px;
             margin: 0;
             display: block;
             overflow: hidden;
+            height: 20px;
+            width: 100%;
             li { 
-              color: #333;
               font-family: 'BigNoodle', Arial, sans-serif;
-              float: right;
-              display: block;
+              display: inline-block;
               margin-right: 8px;
               font-size: 16px;
-              &:first-child {
+              &:last-child {
                 margin-right: 0;
               }
               a {
-                color: #666;
+                color: #D81B5F;
                 text-shadow: 0 1px 1px #fff;
                 &:hover {
                   color: #999;
@@ -49,49 +49,58 @@
       float: left;
       margin: 10px 1%;
       width: 98%;
-      border: 1px solid red;
-      font-family: 'BigNoodle', Arial, sans-serif;
       color: #333;
-      text-shadow: 0 1px 1px #fff;
-      .info_title {
-        display: block;
-        padding: 10px;
-        font-size: 22px;
+      text-shadow: 0 1px 1px #eee;
+      p {
+        margin: 0;
+        .info_title {
+          display: block;
+          padding: 10px 10px 0 10px;
+          font-size: 22px;
+          font: 18px/18px 'TitilliumText22LBold', Verdana, sans-serif;
+        }
+        .info_content {
+          display: block;
+          padding: 10px;
+          font-size: 16px;
+          font: 14px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+        }
       }
-      .info_content {
-        display: block;
-        padding: 10px;
-        font-size: 16px;
-      }
-     
     }
     .img {
-      height: 450px;
       display: block;
-      float: left;
       margin: 15px 1%;
-      width: 98%;
       padding: 5px;
+      clear: left;
+      overflow: hidden;
       .pic {
         float: left;
         width: 74%;
-        height: 96%;
+        height: 425px;
         display: block;
         margin: 0;
         padding: 2%;
-        font-family: 'BigNoodle', Arial, sans-serif;
         text-align: left;
-        border: 1px solid red;
         @include background-size(100%);
+        @include border-radius(5px);
+        @include box-shadow(0 3px 1px rgba(0,0,0,0.8), 0 -1px 1px rgba(250,250,250,0.9));
       }
       p {
+        text-shadow: 0 1px 1px #ddd;
         float: right;
         width: 17%;
         padding: 2%;
         margin: 0;
         height: 96%;
         display: block;
-        border: 1px solid blue;
+        .header {
+          font: 14px/18px 'TitilliumText22LBold', Verdana, sans-serif;
+          display: block;
+        }
+        .content {
+          font: 12px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+        }
+
       }
     }
   }
@@ -105,12 +114,99 @@
         background: url('../img/project/pantone/1.jpg') no-repeat center;
       }
     }
+    #img2 {
+      .pic {
+        background: url('../img/project/pantone/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/pantone/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/pantone/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/pantone/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/pantone/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/pantone/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/pantone/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/pantone/9.jpg') no-repeat center;
+      }
+    }
   }
 }
+
 @media only screen and  (max-width: 768px) {
+              
+ #sub_nav{
+  ul {
+    left: 2px !important;
+    }
+  }
+  
   #wrapper.project_wrapper {
     .img {
-      height: 335px !important;
+      .pic {
+        height: 315px !important;
+      }
+    }
+  }
+}
+
+
+
+@media only screen and  (max-width: 481px) {
+  #wrapper.project_wrapper {
+  
+   #box3.nav {
+      #header {
+        height: 107px !important;
+        #nav {
+          height: 40px !important;
+        }
+      }
+    }
+    .img {
+      .pic {
+        height: 255px !important;
+        width: 96% !important;
+      }
+      p {
+        width: 96% !important;
+        margin-top: 10px !important;
+      }
+      
+    }
+  }
+}
+
+@media only screen and  (max-width: 481px) and (orientation:portrait) { 
+ #wrapper.project_wrapper {
+    .img {
+      .pic {
+        height: 165px !important;
+      }      
     }
   }
 }
