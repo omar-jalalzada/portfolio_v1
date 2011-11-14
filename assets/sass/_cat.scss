@@ -34,7 +34,8 @@
       float: left;
       width: 74%;
       height: 100%;
-      
+      background-repeat: no-repeat;
+      background-position: center;
       @include border-radius(3px);
       @include box-shadow(0 3px 1px rgba(0,0,0,0.8), 0 -1px 1px rgba(250,250,250,0.9));
     }
@@ -43,24 +44,109 @@
 .branding_wrapper {
   #row1 {
     .pic {
-      background: url('../img/cat/agrion.jpg') no-repeat center;
+      background-image: url('../img/cat/agrion.jpg');
     }
   }
   #row2 {
     .pic {
-      background: url('../img/cat/pantone.jpg') no-repeat center;
+      background-image: url('../img/cat/pantone.jpg') ;
     }
   }
   #row3 {
     .pic {
-      background: url('../img/cat/zeal.jpg') no-repeat center;
+      background-image: url('../img/cat/zeal.jpg') ;
     }
   }
   #row4 {
     .pic {
-      background: url('../img/cat/island.jpg') no-repeat center;
+      background-image: url('../img/cat/island.jpg') ;
     }
   }
+}
+
+.mobile_wrapper {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/asda.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/lifetech.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/ticketweb.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/invitrogen.jpg') ;
+    }
+  }
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/wasabi.jpg') ;
+    }
+  }
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/eats.jpg') ;
+    }
+  }
+}
+
+.web_design_wrapper {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/virtus.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/wasab_desktop.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/half_full.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/wdnm.jpg') ;
+    }
+  }
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/hurt_locker.jpg') ;
+    }
+  }
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/zeal_website.jpg') ;
+    }
+  }
+  #row7 {
+    .pic {
+      background-image: url('../img/cat/how_nap.jpg') ;
+    }
+  }
+/*
+  #row8 {
+    .pic {
+      background-image: url('../img/cat/acp.jpg') ;
+    }
+  }
+  #row9 {
+    .pic {
+      background-image: url('../img/cat/palace_hotel.jpg') ;
+    }
+  }  
+*/
 }
 
 @media only screen and (max-width: 481px) {

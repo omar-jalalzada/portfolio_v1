@@ -93,6 +93,13 @@ x$(document).on("DOMContentLoaded", function() {
    });
   });
 
+  x$('body.category').each(function () {
+    x$(".row").each(function(boxes, index){
+      x$(boxes).find(".lateload").each(function(pics){
+        x$(pics).addClass("pic");
+      });
+   });
+  });
   
   
 });

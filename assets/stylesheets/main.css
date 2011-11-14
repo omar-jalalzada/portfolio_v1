@@ -583,12 +583,12 @@ body {
 /* line 15, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #contact_me_container > #bg_module {
   /*     background: rgba(250,250,250,0.8); */
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #ffffff), color-stop(100%, rgba(250, 250, 250, 0)));
-  background-image: -webkit-linear-gradient(top, #ffffff 20%, rgba(250, 250, 250, 0) 100%);
-  background-image: -moz-linear-gradient(top, #ffffff 20%, rgba(250, 250, 250, 0) 100%);
-  background-image: -o-linear-gradient(top, #ffffff 20%, rgba(250, 250, 250, 0) 100%);
-  background-image: -ms-linear-gradient(top, #ffffff 20%, rgba(250, 250, 250, 0) 100%);
-  background-image: linear-gradient(top, #ffffff 20%, rgba(250, 250, 250, 0) 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, #ffffff), color-stop(100%, rgba(250, 250, 250, 0)));
+  background-image: -webkit-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
+  background-image: -o-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
+  background-image: linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
   width: 100%;
   height: 100%;
   z-index: 200;
@@ -618,7 +618,7 @@ body {
   padding: 10px;
   height: 20px;
   margin: 10px;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 0 #fff;
   font: 22px/26px "BigNoodle", Arial, sans-serif;
   /*       line-height: 26px; */
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6c8c8), color-stop(100%, #a2a0a1));
@@ -707,23 +707,24 @@ body {
   -ms-border-radius: 0 0 5px 5px;
   -khtml-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
+  text-shadow: 0 -1px 0 #111111;
   cursor: pointer;
 }
-/* line 102, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 103, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #contact_me span {
   height: 12px;
   margin-top: 2px;
   display: block;
 }
-/* line 108, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 109, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper {
   overflow: hidden;
 }
-/* line 110, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 111, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav {
   position: relative;
 }
-/* line 112, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 113, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header {
   position: absolute;
   bottom: 0;
@@ -732,14 +733,14 @@ body {
   width: 100%;
   overflow: hidden;
 }
-/* line 120, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 121, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #main_title {
   color: #333;
   text-align: right;
   height: 50px;
   display: block;
 }
-/* line 125, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 126, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #main_title h2 {
   font-weight: normal;
   font-size: 57px;
@@ -747,7 +748,7 @@ body {
   font-family: 'BigNoodle', Arial, sans-serif;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 134, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 135, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav {
   height: 43px;
   position: relative;
@@ -755,7 +756,7 @@ body {
   display: block;
   overflow: hidden;
 }
-/* line 140, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 141, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul {
   position: absolute;
   bottom: 0;
@@ -765,7 +766,7 @@ body {
   overflow: hidden;
   height: 20px;
 }
-/* line 148, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 149, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li {
   color: #333;
   font-family: 'BigNoodle', Arial, sans-serif;
@@ -773,26 +774,26 @@ body {
   margin-right: 7px;
   font-size: 16px;
 }
-/* line 154, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 155, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li:last-child {
   margin-right: 0;
 }
-/* line 157, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 158, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a {
   color: #333;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 160, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 161, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a:hover {
   color: #999;
   cursor: pointer;
   text-shadow: 0 1px 5px #fff;
 }
-/* line 165, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 166, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a.active {
   opacity: 0.3;
 }
-/* line 176, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 177, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box {
   width: 194px;
   height: 194px;
@@ -824,7 +825,7 @@ body {
   -o-user-select: none;
   user-select: none;
 }
-/* line 197, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 198, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .pic {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -847,7 +848,7 @@ body {
   height: 100%;
   opacity: 0.1;
 }
-/* line 206, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 207, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title {
   position: absolute;
   bottom: 20px;
@@ -866,7 +867,7 @@ body {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 214, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 215, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title h4, #container #wrapper .box .title h5 {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -891,23 +892,23 @@ body {
   text-shadow: 0 1px 5px #333;
   line-height: 30px;
 }
-/* line 228, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 229, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title h5 {
   font-size: 12px;
 }
-/* line 235, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 236, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .pic {
   opacity: 1;
 }
-/* line 238, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 239, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .title {
   bottom: -60px;
 }
-/* line 240, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 241, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .title h4, #container #wrapper .box.over .title h5 {
   line-height: 0px;
 }
-/* line 247, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 248, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper .empty, #container #wrapper .logo {
   border: none;
   -moz-box-shadow: none;
@@ -916,7 +917,7 @@ body {
   box-shadow: none;
   background: none;
 }
-/* line 252, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 253, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box1.logo {
   background: url("../img/logo.png") no-repeat center;
   -moz-background-size: 90%;
@@ -936,7 +937,7 @@ body {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 258, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 259, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box1.logo.over {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -952,137 +953,137 @@ body {
   transition-timing-function: ease-in;
   opacity: 0.8;
 }
-/* line 266, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 267, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box3 {
   width: 600px;
 }
-/* line 271, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 272, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box6 .pic {
   background: url("../img/invitrogen.jpg") no-repeat center;
 }
-/* line 276, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 277, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box7 {
   width: 398px;
 }
-/* line 278, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 279, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box7 .pic {
   background: url("../img/agrion.jpg") no-repeat center;
 }
-/* line 282, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 283, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box8 {
   width: 398px;
   height: 398px;
 }
-/* line 285, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 286, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box8 .pic {
   background: url("../img/pantone.jpg") no-repeat center;
 }
-/* line 290, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 291, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box9 {
   margin-top: -200px;
   width: 398px;
 }
-/* line 293, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 294, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box9 .pic {
   background: url("../img/island.jpg") no-repeat center;
 }
-/* line 299, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 300, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box10 .pic {
   background: url("../img/virtus.jpg") no-repeat center;
 }
-/* line 304, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 305, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box12 {
   margin-top: -200px;
   height: 398px;
 }
-/* line 307, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 308, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box12 .pic {
   background: url("../img/styling.jpg") no-repeat center;
 }
-/* line 312, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 313, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box11 {
   height: 398px;
 }
-/* line 314, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 315, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box11 .pic {
   background: url("../img/dossier.jpg") no-repeat center;
 }
-/* line 319, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 320, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box13 {
   height: 398px;
 }
-/* line 321, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 322, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box13 .pic {
   background: url("../img/zeal.jpg") no-repeat center;
 }
-/* line 326, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 327, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box14 .pic {
   background: url("../img/wasabi.jpg") no-repeat center;
 }
-/* line 331, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 332, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box15 .pic {
   background: url("../img/afg.jpg") no-repeat center;
 }
-/* line 336, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 337, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box16 {
   margin-top: -200px;
 }
-/* line 338, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 339, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box16 .pic {
   background: url("../img/andro.jpg") no-repeat center;
 }
-/* line 342, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 343, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box18 {
   margin-top: -200px;
 }
-/* line 344, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 345, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box18 .pic {
   background: url("../img/hurtlocker.jpg") no-repeat center;
 }
-/* line 349, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 350, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box17 {
   width: 398px;
 }
-/* line 351, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 352, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box17 .pic {
   background: url("../img/applecare.jpg") no-repeat center;
 }
-/* line 356, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 357, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box19 .pic {
   background: url("../img/angels.jpg") no-repeat center;
 }
-/* line 360, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 361, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box20 {
   width: 398px;
 }
-/* line 362, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 363, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box20 .pic {
   background: url("../img/strawberry.jpg") no-repeat center;
 }
-/* line 366, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 367, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box21 {
   display: none;
 }
-/* line 367, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 368, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #container #wrapper #box21 .pic {
   background: url("../img/ali.jpg") no-repeat center;
 }
 
-/* line 376, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 377, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #footer {
   margin: 10px 0 0 0;
   padding: 0 5px;
   text-align: center;
   overflow: hidden;
 }
-/* line 381, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 382, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #footer .copyright {
   color: #aaa;
   text-shadow: 0 1px 1px #fff;
   margin: 5px 0;
   float: left;
 }
-/* line 387, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 388, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
 #footer a {
   float: right;
   margin-top: 2px;
@@ -1094,7 +1095,7 @@ body {
 }
 
 @media only screen and (max-width: 481px) {
-  /* line 401, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 402, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container {
     width: 100%;
     min-height: 1000px;
@@ -1102,7 +1103,7 @@ body {
     position: relative;
     overflow: hidden;
   }
-  /* line 408, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 409, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #contact_me {
     top: 70px;
     right: -10px !important;
@@ -1113,25 +1114,29 @@ body {
     -ms-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    line-height: 10px;
+    line-height: 15px;
     opacity: 0.6;
   }
-  /* line 417, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 418, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper {
     overflow: hidden;
     margin: 0 auto !important;
   }
-  /* line 421, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 422, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header {
     top: 10px !important;
     bottom: none !important;
   }
-  /* line 424, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 423, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  body #container #wrapper .nav #header #nav ul li {
+    margin-right: 6px;
+  }
+  /* line 428, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header #main_title {
     color: #333;
     text-align: right;
   }
-  /* line 427, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 431, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header #main_title h2 {
     font-weight: normal;
     font-size: 32px;
@@ -1139,14 +1144,14 @@ body {
     font-family: 'BigNoodle', Arial, sans-serif;
     text-shadow: 0 1px 1px #fff;
   }
-  /* line 437, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 441, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper .box {
     width: 149px !important;
     height: 149px !important;
     margin: 5px;
     float: left;
   }
-  /* line 443, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 447, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper .box.logo {
     width: 100% !important;
     margin: 0 auto !important;
@@ -1157,45 +1162,45 @@ body {
     background-size: inherit !important;
     background-position: center 100% !important;
   }
-  /* line 450, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 454, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 {
     height: 115px !important;
     width: 96% !important;
     margin: 0 2% !important;
   }
-  /* line 455, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 459, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #main_title {
     text-align: center;
     height: 30px;
     padding: 10px 0;
   }
-  /* line 462, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 466, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul {
     height: 40px;
   }
-  /* line 464, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 468, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul li {
     float: none;
     display: inline-block;
   }
-  /* line 472, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 476, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box2 {
     display: none;
   }
-  /* line 475, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 479, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box21 {
     display: block !important;
   }
 }
 /*  and   (min-device-width: 768px) and (max-device-width: 1024px) and asdfasdfasd */
 @media only screen and  (max-width: 768px) {
-  /* line 486, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 490, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container {
     width: 758px;
     margin: 0px auto;
     min-height: 960px;
   }
-  /* line 490, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 494, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper {
     overflow: hidden;
     /*
@@ -1210,34 +1215,34 @@ body {
         }
   */
   }
-  /* line 493, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 497, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header {
     height: 90px;
   }
-  /* line 495, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 499, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header #main_title, #container #wrapper .nav #header #nav {
     height: 45px;
   }
-  /* line 497, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 501, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header #main_title h2, #container #wrapper .nav #header #nav h2 {
     font-size: 37px;
   }
-  /* line 504, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 508, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper .box {
     width: 179px !important;
     height: 179px !important;
     margin: 5px !important;
     float: left;
   }
-  /* line 511, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 515, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper #box2 {
     display: none;
   }
-  /* line 514, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 518, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper #box3 {
     width: 558px !important;
   }
-  /* line 518, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 522, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
   #container #wrapper #box21 {
     display: block !important;
   }
@@ -1284,6 +1289,8 @@ body {
   float: left;
   width: 74%;
   height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
@@ -1296,38 +1303,107 @@ body {
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.8), 0 -1px 1px rgba(250, 250, 250, 0.9);
 }
 
-/* line 45, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 46, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
 .branding_wrapper #row1 .pic {
-  background: url("../img/cat/agrion.jpg") no-repeat center;
+  background-image: url("../img/cat/agrion.jpg");
 }
-/* line 50, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 51, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
 .branding_wrapper #row2 .pic {
-  background: url("../img/cat/pantone.jpg") no-repeat center;
+  background-image: url("../img/cat/pantone.jpg");
 }
-/* line 55, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 56, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
 .branding_wrapper #row3 .pic {
-  background: url("../img/cat/zeal.jpg") no-repeat center;
+  background-image: url("../img/cat/zeal.jpg");
 }
-/* line 60, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 61, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
 .branding_wrapper #row4 .pic {
-  background: url("../img/cat/island.jpg") no-repeat center;
+  background-image: url("../img/cat/island.jpg");
+}
+
+/* line 69, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row1 .pic {
+  background-image: url("../img/cat/asda.jpg");
+}
+/* line 74, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row2 .pic {
+  background-image: url("../img/cat/lifetech.jpg");
+}
+/* line 80, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row3 .pic {
+  background-image: url("../img/cat/ticketweb.jpg");
+}
+/* line 85, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row4 .pic {
+  background-image: url("../img/cat/invitrogen.jpg");
+}
+/* line 90, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row5 .pic {
+  background-image: url("../img/cat/wasabi.jpg");
+}
+/* line 95, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.mobile_wrapper #row6 .pic {
+  background-image: url("../img/cat/eats.jpg");
+}
+
+/* line 101, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper {
+  /*
+    #row8 {
+      .pic {
+        background-image: url('../img/cat/acp.jpg') ;
+      }
+    }
+    #row9 {
+      .pic {
+        background-image: url('../img/cat/palace_hotel.jpg') ;
+      }
+    }  
+  */
+}
+/* line 103, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row1 .pic {
+  background-image: url("../img/cat/virtus.jpg");
+}
+/* line 108, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row2 .pic {
+  background-image: url("../img/cat/wasab_desktop.jpg");
+}
+/* line 114, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row3 .pic {
+  background-image: url("../img/cat/half_full.jpg");
+}
+/* line 119, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row4 .pic {
+  background-image: url("../img/cat/wdnm.jpg");
+}
+/* line 124, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row5 .pic {
+  background-image: url("../img/cat/hurt_locker.jpg");
+}
+/* line 129, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row6 .pic {
+  background-image: url("../img/cat/zeal_website.jpg");
+}
+/* line 134, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+.web_design_wrapper #row7 .pic {
+  background-image: url("../img/cat/how_nap.jpg");
 }
 
 @media only screen and (max-width: 481px) {
-  /* line 69, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 155, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title {
     width: 31%;
   }
-  /* line 71, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 157, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title h4 {
     font-size: 22px;
   }
-  /* line 74, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 160, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title h5 {
     font-size: 14px;
     opacity: 0.5;
   }
-  /* line 79, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 165, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .pic {
     width: 64%;
   }
