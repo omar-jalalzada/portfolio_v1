@@ -1,2 +1,5 @@
 assets/.sass-cache
 .sass-cache
+.DS_Store
+publish/
+intermediate/
