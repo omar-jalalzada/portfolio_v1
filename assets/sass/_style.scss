@@ -5,6 +5,10 @@ body {
   background: url('../img/bg.png') repeat;
   padding: 0;
   margin: 0;
+  &.ipad {
+    width: 760px !important;
+    border: 10px solid red;
+  }
 }
 #contact_me_container {
   width: 100%;

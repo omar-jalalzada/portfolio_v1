@@ -1,93 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-	<title>Omar's Portfolio</title>
-	<meta name="description" content="Omar's Jalalzada Portfolio Site">
-	<meta name="author" content="Omar Jalalzada">
-  <meta name="Copyright" content="Copyright © 2011 Omar Jalalzada">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-	<link rel="stylesheet" href="assets/stylesheets/main.css">
-</head>
-<body class="home_page">
-
-  <!-- Contact me modal container -->
-  <div id="contact_me_container">
-    <div id="contact_content">
-      <p>
-          <a class="contact" href="mailto:theboss@ojtwisted.com">
-            <span class='icon lateload'></span>
-            theboss@ojtwisted.com
-          </a>
-        
-          <a href="tel:16503880106">
-            <span class='icon lateload'></span>
-            (650) 388-0106
-          </a>
-        
-          <a class="twitter" target="_blank" href="http://twitter.com/#!/ojtwisted">
-            <span class='icon lateload'></span>
-            Follow me on Twitter
-          </a>
-        
-          <a class="linkedin" target="_blank" href="http://www.linkedin.com/pub/omar-jalalzada/1b/bb2/93b">
-            <span class='icon lateload'></span>
-            Connect on Linkedin
-          </a>
-        
-      </p>
-    </div>
-    <div id="bg_module"></div>
-  </div>
-
-  <div id="container">
-    <div id="contact_me">
-      <span class='content'>CONTACT ME</span>
-    </div>
-    
-    <div id="header"> 
-      <div id="logo"></div>
-      <div id="title"></div>
-    </div>
-    
-  	<div id="main" role="main">
+<?php 
+include("header.php");
+?>
       
       <div id="wrapper">
       
-        <a class="box logo" href="/" id="box1">
-          <div><h1 class="ir">Omar Jalalzada's Portfolio</h1></div>
-        </a> <!-- closing #box1 -->
-        
-        <div class="box empty" id="box2"><!-- Empty Space--></div>
-        <div class="box empty nav" id="box3">
-
-          <div id="header">
-
-            <div id="main_title">
-              <h2>Omar Jalalzada's Portfolio</h2>
-            </div> <!-- Closing #main_title -->
-
-            <div id="nav">
-              <ul>
-                <li class='branding'><a href="cat/branding.html">Branding</a></li>
-                <li class='mobile'><a href="cat/mobile.html">Mobile Sites</a></li>                
-                <li class='web'><a href="cat/web_design.html">Web Design</a></li>
-                <li class='imaging'><a href="cat/imaging.html">Imaging/Photography</a></li>
-                <li class='motion'><a href="cat/m_graphics.html">Motion Graphics/Audio</a></li>
-                <li class='art'><a href="cat/fine_art.html">Fine Art</a></li>
-                <li class='dd'><a href="cat/3d.html">3D</a></li>
-                <li class='motion'><a href="cat/about_me.html">About Me</a></li>
-              </ul>
-            </div> <!-- Closing #nav -->
-          </div> <!-- Closing #nav_conatainer -->
-          
-        </div> <!-- Closing #box3 -->
+      <?php include("nav.php"); ?>
 <!--
         <div class="box" id="box4"></div>
         <div class="box" id="box5"></div>
@@ -225,34 +142,10 @@
 
       </div> <!-- ending wrapper -->
       
-  	</div>
+
   	
-  <div id="footer">
-    <p class='copyright'>&#169 Omar Jalalzada 2011, All right reserved</p>
-    <a class='ir'href='http://creativecommons.org/licenses/by-nc-nd/3.0/' target="_blank">Copyrights</a>
-  </div>
-  	
-  </div> <!--! end of #container -->
-  
+<?php 
 
-  <!-- scripts concatenated and minified via build script -->
-  <script  defer src="assets/js/script.js"></script>
-  <!-- end scripts -->
-  
-  <script type="text/javascript">
-  
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-17890678-2']);
-    _gaq.push(['_trackPageview']);
-  
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  
-  </script>
+include("footer.php"); 
 
-
-</body>
-</html>
+?>

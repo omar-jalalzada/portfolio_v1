@@ -6,9 +6,13 @@
           height: 30px;
         }
         #sub_nav{
+          display: none;
           height: 20px;
           position: relative;
           width: 100%;
+          &.show {
+            display: block;
+          }
           ul {
             position: absolute;
             bottom: 0;

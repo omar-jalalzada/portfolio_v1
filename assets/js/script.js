@@ -66,18 +66,6 @@ new f(this.zoom_previews[d]),x$(this.zoom_previews[d].set).attr("data-ur-state",
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Author: Omar Jalalzada */
 
 /* Contact me functionality */
@@ -86,10 +74,19 @@ new f(this.zoom_previews[d]),x$(this.zoom_previews[d].set).attr("data-ur-state",
     console.log("cabs sa here");
   });
 */
+/*
 
 window.onresize = function() {
- console.log(document.body.offsetWidth);
+ // console.log(document.body.offsetWidth);
+ var sw = document.body.offsetWidth
+ if ( sw < "760" ) {
+  x$('body').addClass('ipad'); 
+ } if ( sw < "760") {
+  x$('body').removeClass('ipad');
+ }
+ 
 }
+*/
 
 
 
@@ -179,14 +176,23 @@ x$(document).on("DOMContentLoaded", function() {
    });
   });
 
-  x$('body.category').each(function () {
+  x$('.cat_wrapper').each(function () {
     x$(".row").each(function(boxes, index){
       x$(boxes).find(".lateload").each(function(pics){
         x$(pics).addClass("pic");
       });
    });
   });
+
   
+  // Assigning the 'active' class to the appropariate navigation
+  x$('#nav ul').find('li').each( function(nav) {
+    var wc = x$('#wrapper_class')[0].innerHTML
+    var cl = x$(nav).attr('class')
+     if ( wc == cl ) {
+      x$(this).find('a').addClass('active');
+     }
+  });
   
 });
 

@@ -8,12 +8,12 @@
 /* =============================================================================
    HTML5 element display
    ========================================================================== */
-/* line 14, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 14, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-/* line 15, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 15, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 audio[controls], canvas, video {
   display: inline-block;
   *display: inline;
@@ -32,7 +32,7 @@ audio[controls], canvas, video {
  * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 32, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 32, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -42,14 +42,14 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 34, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 34, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 body {
   margin: 0;
   font-size: 13px;
   line-height: 1.231;
 }
 
-/* line 36, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 36, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 body, button, input, select, textarea {
   font-family: sans-serif;
   color: #222;
@@ -60,14 +60,14 @@ body, button, input, select, textarea {
  * No text-shadow: twitter.com/miketaylr/status/12228805301
  * Also: hot pink!
  */
-/* line 44, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 44, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 ::-moz-selection {
   background: #00A7C9;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 45, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 45, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 ::selection {
   background: #00A7C9;
   color: #fff;
@@ -77,24 +77,24 @@ body, button, input, select, textarea {
 /* =============================================================================
    Links
    ========================================================================== */
-/* line 52, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 52, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 a {
   color: #333;
   text-decoration: none;
 }
 
-/* line 53, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 53, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 a:visited {
   color: #333;
 }
 
-/* line 54, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 54, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
-/* line 57, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 57, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -102,27 +102,27 @@ a:hover, a:active {
 /* =============================================================================
    Typography
    ========================================================================== */
-/* line 64, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 64, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 66, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 66, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 68, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 68, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 70, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 70, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 72, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 72, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 hr {
   display: block;
   height: 1px;
@@ -132,14 +132,14 @@ hr {
   padding: 0;
 }
 
-/* line 74, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 74, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 ins {
   background: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 76, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 76, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -148,7 +148,7 @@ mark {
 }
 
 /* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
-/* line 79, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 79, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 pre, code, kbd, samp {
   font-family: monospace, monospace;
   _font-family: 'courier new', monospace;
@@ -156,31 +156,31 @@ pre, code, kbd, samp {
 }
 
 /* Improve readability of pre-formatted text in all browsers */
-/* line 82, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 82, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 84, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 84, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 q {
   quotes: none;
 }
 
-/* line 85, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 85, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 q:before, q:after {
   content: "";
   content: none;
 }
 
-/* line 87, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 87, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 small {
   font-size: 85%;
 }
 
 /* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
-/* line 90, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 90, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -188,12 +188,12 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 91, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 91, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 92, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 92, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 sub {
   bottom: -0.25em;
 }
@@ -201,25 +201,25 @@ sub {
 /* =============================================================================
    Lists
    ========================================================================== */
-/* line 99, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 99, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 ul, ol {
   margin: 1em 0;
   padding: 0;
 }
 
-/* line 100, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 100, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 101, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 101, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 nav ul, nav ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 102, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 102, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 ul li {
   list-style: none;
 }
@@ -231,7 +231,7 @@ ul li {
  * Improve image quality when scaled in IE7
  * code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 113, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 113, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -240,7 +240,7 @@ img {
 /*
  * Correct overflow displayed oddly in IE9 
  */
-/* line 119, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 119, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -248,7 +248,7 @@ svg:not(:root) {
 /* =============================================================================
    Figures
    ========================================================================== */
-/* line 128, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 128, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 figure {
   margin: 0;
 }
@@ -256,12 +256,12 @@ figure {
 /* =============================================================================
    Forms
    ========================================================================== */
-/* line 135, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 135, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 form {
   margin: 0;
 }
 
-/* line 136, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 136, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -272,7 +272,7 @@ fieldset {
  * 1. Correct color not inheriting in IE6/7/8/9 
  * 2. Correct alignment displayed oddly in IE6/7 
  */
-/* line 143, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 143, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 legend {
   border: 0;
   *margin-left: -7px;
@@ -280,7 +280,7 @@ legend {
 }
 
 /* Indicate that 'label' will shift focus to the associated form element */
-/* line 146, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 146, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 label {
   cursor: pointer;
 }
@@ -290,7 +290,7 @@ label {
  * 2. Remove margins in FF3/4 S5 Chrome
  * 3. Define consistent vertical alignment display in all browsers
  */
-/* line 154, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 154, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
@@ -302,7 +302,7 @@ button, input, select, textarea {
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
  * 2. Correct inner spacing displayed oddly in IE6/7
  */
-/* line 161, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 161, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 button, input {
   line-height: normal;
   *overflow: visible;
@@ -312,7 +312,7 @@ button, input {
  * 1. Display hand cursor for clickable form elements
  * 2. Allow styling of clickable form elements in iOS
  */
-/* line 168, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 168, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
@@ -321,12 +321,12 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 /*
  * Consistent box sizing and appearance
  */
-/* line 174, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 174, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
 }
 
-/* line 175, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 175, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 input[type="search"] {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -337,21 +337,21 @@ input[type="search"] {
  * Remove inner padding and border in FF3/4
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ 
  */
-/* line 182, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 182, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 /* Remove default vertical scrollbar in IE6/7/8/9 */
-/* line 185, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 185, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
 /* Colors for form validity */
-/* line 189, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 189, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
@@ -359,7 +359,7 @@ input:invalid, textarea:invalid {
 /* =============================================================================
    Tables
    ========================================================================== */
-/* line 196, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 196, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -370,7 +370,7 @@ table {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 209, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 209, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .ir {
   display: block;
   text-indent: -999em;
@@ -380,14 +380,14 @@ table {
   direction: ltr;
 }
 
-/* line 210, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 210, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .ir br {
   display: none;
 }
 
 /* Hide for both screenreaders and browsers:
    css-discuss.incutio.com/wiki/Screenreader_Visibility */
-/* line 214, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 214, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .hidden {
   display: none;
   visibility: hidden;
@@ -395,7 +395,7 @@ table {
 
 /* Hide only visually, but have it available for screenreaders: by Jon Neal.
   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
-/* line 218, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 218, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -408,7 +408,7 @@ table {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-/* line 221, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 221, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -419,24 +419,24 @@ table {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 224, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 224, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */
-/* line 227, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 227, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 228, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 228, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 229, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+/* line 229, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
 .clearfix {
   zoom: 1;
 }
@@ -484,7 +484,7 @@ table {
    Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
-  /* line 292, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 292, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -494,46 +494,46 @@ table {
   }
 
   /* Black prints faster: sanbeiji.com/archives/953 */
-  /* line 293, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 293, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 294, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 294, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 295, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 295, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 296, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 296, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 297, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 297, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 298, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 298, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   thead {
     display: table-header-group;
   }
 
   /* css-discuss.incutio.com/wiki/Printing_Tables */
-  /* line 299, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 299, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 300, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 300, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   img {
     max-width: 100% !important;
   }
@@ -542,13 +542,13 @@ table {
     margin: 0.5cm;
 }
 
-  /* line 302, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 302, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 303, /Users/Omar/Sites/portfolio/assets/sass/_base.scss */
+  /* line 303, /Applications/MAMP/htdocs/portfolio/assets/sass/_base.scss */
   h2, h3 {
     page-break-after: avoid;
   }
@@ -559,19 +559,24 @@ $d_height: 492px;
 $t_width: 742px;
 $t_neg_margin: -248px;
 */
-/* line 1, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 1, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 .yeaBuddy {
   background: blue !important;
 }
 
-/* line 4, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 4, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 body {
   background: url("../img/bg.png") repeat;
   padding: 0;
   margin: 0;
 }
+/* line 8, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
+body.ipad {
+  width: 760px !important;
+  border: 10px solid red;
+}
 
-/* line 9, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 13, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container {
   width: 100%;
   position: absolute;
@@ -580,7 +585,7 @@ body {
   z-index: 400;
   display: none;
 }
-/* line 15, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 19, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container > #bg_module {
   /*     background: rgba(250,250,250,0.8); */
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, #ffffff), color-stop(100%, rgba(250, 250, 250, 0)));
@@ -596,11 +601,11 @@ body {
   top: 0;
   left: 0;
 }
-/* line 26, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 30, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container.active {
   display: block;
 }
-/* line 29, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 33, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content {
   width: 250px;
   margin: 20px auto;
@@ -612,7 +617,7 @@ body {
   overflow: hidden;
   text-align: center;
 }
-/* line 40, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 44, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a {
   display: inline-block;
   padding: 10px;
@@ -641,7 +646,7 @@ body {
   position: relative;
   text-indent: 40px;
 }
-/* line 54, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 58, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a .icon {
   width: 38px;
   height: 38px;
@@ -658,35 +663,35 @@ body {
   border-radius: 6px 0 0 5px;
   background-image: url("../img/contact_icon.png");
 }
-/* line 65, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 69, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a:first-child .icon {
   background-color: #D41559;
   background-position-y: -132px;
 }
-/* line 69, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 73, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a:nth-of-type(2) .icon {
   background-color: #00A9C6;
   background-position-y: -87px;
 }
-/* line 73, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 77, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a:nth-of-type(3) .icon {
   background-color: #07C8F0;
   background-position-y: 0px;
 }
-/* line 77, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 81, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #contact_me_container #contact_content a:nth-of-type(4) .icon {
   background-color: #0082AE;
   background-position-y: -44px;
 }
 
-/* line 84, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 88, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container {
   /*   width: 1265px; */
   width: 1020px;
   position: relative;
   margin: 0 auto;
 }
-/* line 89, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 93, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #contact_me {
   position: absolute;
   top: -5px;
@@ -710,21 +715,21 @@ body {
   text-shadow: 0 -1px 0 #111111;
   cursor: pointer;
 }
-/* line 103, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 107, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #contact_me span {
   height: 12px;
   margin-top: 2px;
   display: block;
 }
-/* line 109, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 113, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper {
   overflow: hidden;
 }
-/* line 111, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 115, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav {
   position: relative;
 }
-/* line 113, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 117, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header {
   position: absolute;
   bottom: 0;
@@ -733,14 +738,14 @@ body {
   width: 100%;
   overflow: hidden;
 }
-/* line 121, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 125, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #main_title {
   color: #333;
   text-align: right;
   height: 50px;
   display: block;
 }
-/* line 126, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 130, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #main_title h2 {
   font-weight: normal;
   font-size: 57px;
@@ -748,7 +753,7 @@ body {
   font-family: 'BigNoodle', Arial, sans-serif;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 135, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 139, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav {
   height: 43px;
   position: relative;
@@ -756,7 +761,7 @@ body {
   display: block;
   overflow: hidden;
 }
-/* line 141, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 145, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul {
   position: absolute;
   bottom: 0;
@@ -766,7 +771,7 @@ body {
   overflow: hidden;
   height: 20px;
 }
-/* line 149, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 153, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li {
   color: #333;
   font-family: 'BigNoodle', Arial, sans-serif;
@@ -774,26 +779,26 @@ body {
   margin-right: 7px;
   font-size: 16px;
 }
-/* line 155, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 159, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li:last-child {
   margin-right: 0;
 }
-/* line 158, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 162, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a {
   color: #333;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 161, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 165, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a:hover {
   color: #999;
   cursor: pointer;
   text-shadow: 0 1px 5px #fff;
 }
-/* line 166, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 170, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a.active {
   opacity: 0.3;
 }
-/* line 177, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 181, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box {
   width: 194px;
   height: 194px;
@@ -825,7 +830,7 @@ body {
   -o-user-select: none;
   user-select: none;
 }
-/* line 198, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 202, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .pic {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -848,7 +853,7 @@ body {
   height: 100%;
   opacity: 0.1;
 }
-/* line 207, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 211, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title {
   position: absolute;
   bottom: 20px;
@@ -867,7 +872,7 @@ body {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 215, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 219, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title h4, #container #wrapper .box .title h5 {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -892,23 +897,23 @@ body {
   text-shadow: 0 1px 5px #333;
   line-height: 30px;
 }
-/* line 229, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 233, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box .title h5 {
   font-size: 12px;
 }
-/* line 236, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 240, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .pic {
   opacity: 1;
 }
-/* line 239, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 243, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .title {
   bottom: -60px;
 }
-/* line 241, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 245, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .box.over .title h4, #container #wrapper .box.over .title h5 {
   line-height: 0px;
 }
-/* line 248, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 252, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper .empty, #container #wrapper .logo {
   border: none;
   -moz-box-shadow: none;
@@ -917,7 +922,7 @@ body {
   box-shadow: none;
   background: none;
 }
-/* line 253, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 257, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box1.logo {
   background: url("../img/logo.png") no-repeat center;
   -moz-background-size: 90%;
@@ -937,7 +942,7 @@ body {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 259, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 263, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box1.logo.over {
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -953,137 +958,137 @@ body {
   transition-timing-function: ease-in;
   opacity: 0.8;
 }
-/* line 267, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 271, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box3 {
   width: 600px;
 }
-/* line 272, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 276, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box6 .pic {
   background: url("../img/invitrogen.jpg") no-repeat center;
 }
-/* line 277, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 281, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box7 {
   width: 398px;
 }
-/* line 279, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 283, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box7 .pic {
   background: url("../img/agrion.jpg") no-repeat center;
 }
-/* line 283, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 287, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box8 {
   width: 398px;
   height: 398px;
 }
-/* line 286, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 290, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box8 .pic {
   background: url("../img/pantone.jpg") no-repeat center;
 }
-/* line 291, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 295, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box9 {
   margin-top: -200px;
   width: 398px;
 }
-/* line 294, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 298, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box9 .pic {
   background: url("../img/island.jpg") no-repeat center;
 }
-/* line 300, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 304, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box10 .pic {
   background: url("../img/virtus.jpg") no-repeat center;
 }
-/* line 305, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 309, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box12 {
   margin-top: -200px;
   height: 398px;
 }
-/* line 308, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 312, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box12 .pic {
   background: url("../img/styling.jpg") no-repeat center;
 }
-/* line 313, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 317, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box11 {
   height: 398px;
 }
-/* line 315, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 319, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box11 .pic {
   background: url("../img/dossier.jpg") no-repeat center;
 }
-/* line 320, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 324, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box13 {
   height: 398px;
 }
-/* line 322, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 326, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box13 .pic {
   background: url("../img/zeal.jpg") no-repeat center;
 }
-/* line 327, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 331, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box14 .pic {
   background: url("../img/wasabi.jpg") no-repeat center;
 }
-/* line 332, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 336, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box15 .pic {
   background: url("../img/afg.jpg") no-repeat center;
 }
-/* line 337, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 341, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box16 {
   margin-top: -200px;
 }
-/* line 339, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 343, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box16 .pic {
   background: url("../img/andro.jpg") no-repeat center;
 }
-/* line 343, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 347, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box18 {
   margin-top: -200px;
 }
-/* line 345, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 349, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box18 .pic {
   background: url("../img/hurtlocker.jpg") no-repeat center;
 }
-/* line 350, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 354, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box17 {
   width: 398px;
 }
-/* line 352, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 356, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box17 .pic {
   background: url("../img/applecare.jpg") no-repeat center;
 }
-/* line 357, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 361, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box19 .pic {
   background: url("../img/angels.jpg") no-repeat center;
 }
-/* line 361, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 365, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box20 {
   width: 398px;
 }
-/* line 363, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 367, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box20 .pic {
   background: url("../img/strawberry.jpg") no-repeat center;
 }
-/* line 367, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 371, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box21 {
   display: none;
 }
-/* line 368, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 372, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #container #wrapper #box21 .pic {
   background: url("../img/ali.jpg") no-repeat center;
 }
 
-/* line 377, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 381, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #footer {
   margin: 10px 0 0 0;
   padding: 0 5px;
   text-align: center;
   overflow: hidden;
 }
-/* line 382, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 386, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #footer .copyright {
   color: #aaa;
   text-shadow: 0 1px 1px #fff;
   margin: 5px 0;
   float: left;
 }
-/* line 388, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+/* line 392, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
 #footer a {
   float: right;
   margin-top: 2px;
@@ -1095,7 +1100,7 @@ body {
 }
 
 @media only screen and (max-width: 481px) {
-  /* line 402, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 406, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container {
     width: 100%;
     min-height: 1000px;
@@ -1103,7 +1108,7 @@ body {
     position: relative;
     overflow: hidden;
   }
-  /* line 409, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 413, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #contact_me {
     top: 70px;
     right: -10px !important;
@@ -1117,26 +1122,26 @@ body {
     line-height: 15px;
     opacity: 0.6;
   }
-  /* line 418, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 422, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper {
     overflow: hidden;
     margin: 0 auto !important;
   }
-  /* line 422, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 426, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header {
     top: 10px !important;
     bottom: none !important;
   }
-  /* line 423, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 427, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header #nav ul li {
     margin-right: 6px;
   }
-  /* line 428, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 432, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header #main_title {
     color: #333;
     text-align: right;
   }
-  /* line 431, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 435, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .nav #header #main_title h2 {
     font-weight: normal;
     font-size: 32px;
@@ -1144,14 +1149,14 @@ body {
     font-family: 'BigNoodle', Arial, sans-serif;
     text-shadow: 0 1px 1px #fff;
   }
-  /* line 441, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 445, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .box {
     width: 149px !important;
     height: 149px !important;
     margin: 5px;
     float: left;
   }
-  /* line 447, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 451, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper .box.logo {
     width: 100% !important;
     margin: 0 auto !important;
@@ -1162,45 +1167,45 @@ body {
     background-size: inherit !important;
     background-position: center 100% !important;
   }
-  /* line 454, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 458, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 {
     height: 115px !important;
     width: 96% !important;
     margin: 0 2% !important;
   }
-  /* line 459, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 463, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #main_title {
     text-align: center;
     height: 30px;
     padding: 10px 0;
   }
-  /* line 466, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 470, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul {
     height: 40px;
   }
-  /* line 468, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 472, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul li {
     float: none;
     display: inline-block;
   }
-  /* line 476, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 480, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box2 {
     display: none;
   }
-  /* line 479, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 483, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   body #container #wrapper #box21 {
     display: block !important;
   }
 }
 /*  and   (min-device-width: 768px) and (max-device-width: 1024px) and asdfasdfasd */
 @media only screen and  (max-width: 768px) {
-  /* line 490, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 494, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container {
     width: 758px;
     margin: 0px auto;
     min-height: 960px;
   }
-  /* line 494, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 498, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper {
     overflow: hidden;
     /*
@@ -1215,39 +1220,39 @@ body {
         }
   */
   }
-  /* line 497, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 501, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header {
     height: 90px;
   }
-  /* line 499, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 503, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header #main_title, #container #wrapper .nav #header #nav {
     height: 45px;
   }
-  /* line 501, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 505, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper .nav #header #main_title h2, #container #wrapper .nav #header #nav h2 {
     font-size: 37px;
   }
-  /* line 508, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 512, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper .box {
     width: 179px !important;
     height: 179px !important;
     margin: 5px !important;
     float: left;
   }
-  /* line 515, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 519, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper #box2 {
     display: none;
   }
-  /* line 518, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 522, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper #box3 {
     width: 558px !important;
   }
-  /* line 522, /Users/Omar/Sites/portfolio/assets/sass/_style.scss */
+  /* line 526, /Applications/MAMP/htdocs/portfolio/assets/sass/_style.scss */
   #container #wrapper #box21 {
     display: block !important;
   }
 }
-/* line 2, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 2, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row {
   height: 150px;
   display: block;
@@ -1256,7 +1261,7 @@ body {
   width: 98%;
   padding: 5px;
 }
-/* line 9, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 9, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row .title {
   float: right;
   width: 21%;
@@ -1267,7 +1272,7 @@ body {
   font-family: 'BigNoodle', Arial, sans-serif;
   text-align: left;
 }
-/* line 18, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 18, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row .title h4, .cat_wrapper .row .title h5 {
   color: #444;
   font-size: 18px;
@@ -1276,15 +1281,15 @@ body {
   padding: 0;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 26, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 26, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row .title h4 {
   font-size: 32px;
 }
-/* line 29, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 29, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row .title h5 {
   opacity: 0.5;
 }
-/* line 33, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+/* line 33, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
 .cat_wrapper .row .pic {
   float: left;
   width: 74%;
@@ -1303,50 +1308,50 @@ body {
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.8), 0 -1px 1px rgba(250, 250, 250, 0.9);
 }
 
-/* line 46, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.branding_wrapper #row1 .pic {
+/* line 48, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.branding #row1 .pic {
   background-image: url("../img/cat/agrion.jpg");
 }
-/* line 51, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.branding_wrapper #row2 .pic {
+/* line 53, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.branding #row2 .pic {
   background-image: url("../img/cat/pantone.jpg");
 }
-/* line 56, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.branding_wrapper #row3 .pic {
+/* line 58, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.branding #row3 .pic {
   background-image: url("../img/cat/zeal.jpg");
 }
-/* line 61, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.branding_wrapper #row4 .pic {
+/* line 63, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.branding #row4 .pic {
   background-image: url("../img/cat/island.jpg");
 }
 
-/* line 69, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row1 .pic {
+/* line 71, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row1 .pic {
   background-image: url("../img/cat/asda.jpg");
 }
-/* line 74, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row2 .pic {
+/* line 76, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row2 .pic {
   background-image: url("../img/cat/lifetech.jpg");
 }
-/* line 80, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row3 .pic {
+/* line 82, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row3 .pic {
   background-image: url("../img/cat/ticketweb.jpg");
 }
-/* line 85, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row4 .pic {
+/* line 87, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row4 .pic {
   background-image: url("../img/cat/invitrogen.jpg");
 }
-/* line 90, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row5 .pic {
+/* line 92, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row5 .pic {
   background-image: url("../img/cat/wasabi.jpg");
 }
-/* line 95, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.mobile_wrapper #row6 .pic {
+/* line 97, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.mobile #row6 .pic {
   background-image: url("../img/cat/eats.jpg");
 }
 
-/* line 101, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper {
+/* line 103, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design {
   /*
     #row8 {
       .pic {
@@ -1360,65 +1365,70 @@ body {
     }  
   */
 }
-/* line 103, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row1 .pic {
+/* line 105, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row1 .pic {
   background-image: url("../img/cat/virtus.jpg");
 }
-/* line 108, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row2 .pic {
+/* line 110, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row2 .pic {
   background-image: url("../img/cat/wasab_desktop.jpg");
 }
-/* line 114, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row3 .pic {
+/* line 116, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row3 .pic {
   background-image: url("../img/cat/half_full.jpg");
 }
-/* line 119, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row4 .pic {
+/* line 121, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row4 .pic {
   background-image: url("../img/cat/wdnm.jpg");
 }
-/* line 124, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row5 .pic {
+/* line 126, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row5 .pic {
   background-image: url("../img/cat/hurt_locker.jpg");
 }
-/* line 129, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row6 .pic {
+/* line 131, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row6 .pic {
   background-image: url("../img/cat/zeal_website.jpg");
 }
-/* line 134, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
-.web_design_wrapper #row7 .pic {
+/* line 136, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
+.web_design #row7 .pic {
   background-image: url("../img/cat/how_nap.jpg");
 }
 
 @media only screen and (max-width: 481px) {
-  /* line 155, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 157, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title {
     width: 31%;
   }
-  /* line 157, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 159, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title h4 {
     font-size: 22px;
   }
-  /* line 160, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 162, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .title h5 {
     font-size: 14px;
     opacity: 0.5;
   }
-  /* line 165, /Users/Omar/Sites/portfolio/assets/sass/_cat.scss */
+  /* line 167, /Applications/MAMP/htdocs/portfolio/assets/sass/_cat.scss */
   .cat_wrapper .row .pic {
     width: 64%;
   }
 }
-/* line 5, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 5, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #nav {
   height: 30px;
 }
-/* line 8, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 8, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav {
+  display: none;
   height: 20px;
   position: relative;
   width: 100%;
 }
-/* line 12, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 13, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
+#container #wrapper.project_wrapper .nav #header #sub_nav.show {
+  display: block;
+}
+/* line 16, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul {
   position: absolute;
   bottom: 0;
@@ -1429,33 +1439,33 @@ body {
   height: 20px;
   width: 100%;
 }
-/* line 21, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 25, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li {
   font-family: 'BigNoodle', Arial, sans-serif;
   display: inline-block;
   margin-right: 8px;
   font-size: 16px;
 }
-/* line 26, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 30, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li:last-child {
   margin-right: 0;
 }
-/* line 29, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 33, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a {
   color: #D81B5F;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 32, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 36, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a:hover {
   color: #999;
   cursor: pointer;
   text-shadow: 0 1px 5px #fff;
 }
-/* line 37, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 41, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a.active {
   opacity: 0.3;
 }
-/* line 47, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 51, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .info {
   display: block;
   float: left;
@@ -1464,25 +1474,25 @@ body {
   color: #333;
   text-shadow: 0 1px 1px #eee;
 }
-/* line 54, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 58, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .info p {
   margin: 0;
 }
-/* line 56, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 60, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .info p .info_title {
   display: block;
   padding: 10px 10px 0 10px;
   font-size: 22px;
   font: 18px/18px "TitilliumText22LBold", Verdana, sans-serif;
 }
-/* line 62, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 66, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .info p .info_content {
   display: block;
   padding: 10px;
   font-size: 16px;
   font: 14px/18px "TitilliumText22LRegular", Verdana, sans-serif;
 }
-/* line 70, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 74, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .img {
   display: block;
   margin: 15px 1%;
@@ -1490,7 +1500,7 @@ body {
   clear: left;
   overflow: hidden;
 }
-/* line 76, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 80, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .img .pic {
   float: left;
   width: 74%;
@@ -1514,7 +1524,7 @@ body {
   -o-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.8), 0 -1px 1px rgba(250, 250, 250, 0.9);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.8), 0 -1px 1px rgba(250, 250, 250, 0.9);
 }
-/* line 88, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 92, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .img p {
   text-shadow: 0 1px 1px #ddd;
   float: right;
@@ -1524,85 +1534,85 @@ body {
   height: 96%;
   display: block;
 }
-/* line 96, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 100, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .img p .header {
   font: 14px/18px "TitilliumText22LBold", Verdana, sans-serif;
   display: block;
 }
-/* line 100, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 104, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container #wrapper.project_wrapper .img p .content {
   font: 12px/18px "TitilliumText22LRegular", Verdana, sans-serif;
 }
-/* line 113, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 117, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img1 .pic {
   background: url("../img/project/pantone/1.jpg") no-repeat center;
 }
-/* line 118, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 122, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img2 .pic {
   background: url("../img/project/pantone/2.jpg") no-repeat center;
 }
-/* line 123, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 127, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img3 .pic {
   background: url("../img/project/pantone/3.jpg") no-repeat center;
 }
-/* line 128, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 132, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img4 .pic {
   background: url("../img/project/pantone/4.jpg") no-repeat center;
 }
-/* line 133, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 137, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img5 .pic {
   background: url("../img/project/pantone/5.jpg") no-repeat center;
 }
-/* line 138, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 142, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img6 .pic {
   background: url("../img/project/pantone/6.jpg") no-repeat center;
 }
-/* line 143, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 147, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img7 .pic {
   background: url("../img/project/pantone/7.jpg") no-repeat center;
 }
-/* line 148, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 152, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img8 .pic {
   background: url("../img/project/pantone/8.jpg") no-repeat center;
 }
-/* line 153, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+/* line 157, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
 #container .project_pantone #img9 .pic {
   background: url("../img/project/pantone/9.jpg") no-repeat center;
 }
 
 @media only screen and  (max-width: 768px) {
-  /* line 163, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 167, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #sub_nav ul {
     left: 2px !important;
   }
 
-  /* line 170, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 174, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 315px !important;
   }
 }
 @media only screen and  (max-width: 481px) {
-  /* line 183, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 187, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header {
     height: 107px !important;
   }
-  /* line 185, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 189, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header #nav {
     height: 40px !important;
   }
-  /* line 191, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 195, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 255px !important;
     width: 96% !important;
   }
-  /* line 195, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 199, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper .img p {
     width: 96% !important;
     margin-top: 10px !important;
   }
 }
 @media only screen and  (max-width: 481px) and (orientation:portrait) {
-  /* line 207, /Users/Omar/Sites/portfolio/assets/sass/_project.scss */
+  /* line 211, /Applications/MAMP/htdocs/portfolio/assets/sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 165px !important;
   }
