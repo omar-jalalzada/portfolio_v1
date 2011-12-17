@@ -36,7 +36,7 @@
   </div>
   <div class="title">
     <h4>Kabul Dream</h4>
-    <h5>ComingSoon!</h5>
+    <h5>Kabul Singing</h5>
   </div>
 </div> <!-- Closing #row4 -->
 
@@ -59,7 +59,7 @@
   
   <div class="title">
     <h4>Destiny of Men</h4>
-    <h5>Custom sound made from basic synths with royalty free spoken words of president Lyndon Baines Johnson addressing the Joint Session of Congress on voting legislation </h5>
+    <h5>Custom sound made from basic synthesis with royalty free spoken words of president Lyndon Baines Johnson addressing the Joint Session of Congress on voting legislation </h5>
   </div>
 </a> <!-- Closing #row6 -->
 

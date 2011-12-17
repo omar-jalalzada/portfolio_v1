@@ -4,7 +4,7 @@
     <span class="info_content">
       This time Pantone LLC takes another step to bring you the highest quality of product 
       line with the new customizable Tell-a-Tone. This gadget gives you an enhanced experience with colors that surround you. 
-      It tells you specific mixtures, numbers and color codes - right in you own handheld device with 99.9% accuracy.
+      It tells you specific mixtures, numbers and color codes - right in you own hand held device with 99.9% accuracy.
 
     </span>
   </p>
@@ -30,7 +30,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Product Demonstration</span>
-    <span class="content">Using a stock iPhone4 3d model, we are demonstrating how to product attaches to the handheld device</span>
+    <span class="content">Using a stock iPhone4 3D model, we are demonstrating how to product attaches to the hand held device</span>
   </p>
 </div>
 
@@ -46,7 +46,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Cross Platform Application UI/UX sample</span>
-    <span class="content">Demonstrating the mobile application accros variety of handheld devices</span>
+    <span class="content">Demonstrating the mobile application across variety of hand held devices</span>
   </p>
 </div> 
 
@@ -78,6 +78,6 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Web Site Mock UP</span>
-    <span class="content">Global network for cleantech compaines</span>
+    <span class="content">Global network for clean-tech companies</span>
   </p>
 </div>  

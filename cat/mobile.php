@@ -4,7 +4,7 @@
   <div class="title">
 
     <h4>ASDA</h4>
-    <h5>A British supermarket chain and one of the Walmart's subsidary</h5>
+    <h5>A British supermarket chain and one of the Walmart's subsidiary</h5>
   </div>
 </a> <!-- Closing #row4 -->
 

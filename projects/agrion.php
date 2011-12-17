@@ -4,7 +4,7 @@
     <span class="info_content">
       Networking companies and associates in more effective business related issues.<br>
       Agrion brings together entrepreneurs, investors and corporations 
-      involved in energy, cleantech, raw materials, sustainable development, mobility and urban management.
+      involved in energy, clean-tech, raw materials, sustainable development, mobility and urban management.
     </span>
   </p>
 </div>
@@ -26,7 +26,7 @@
 <div class="img" id="img2">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Color Pallette</span>
+    <span class="header">Color Palette</span>
     <span class="content">Brand colors and.. </span>
   </p>
 </div>

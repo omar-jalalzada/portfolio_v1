@@ -2,7 +2,7 @@
   <div class="lateload" ></div>
   <div class="title">
     <h4>Agrion</h4>
-    <h5>Cleantech Company</h5>
+    <h5>Clean-tech Company</h5>
   </div>
 </a> <!-- Closing #row4 -->
 

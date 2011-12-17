@@ -4,7 +4,7 @@
   <div class="title">
 
     <h4>ASDA</h4>
-    <h5>A British supermarket chain and one of the Walmart's subsidary</h5>
+    <h5>A British supermarket chain and one of the Walmart's subsidiary</h5>
     <p>HTML + CSS + XUI + Uranium + Tritium</p>
   </div>
 </a> <!-- Closing #row4 -->
@@ -92,7 +92,7 @@
   <div class="title">
 
     <h4>Wasabi Grill - Mobile</h4>
-    <h5>A japaness cuisine restaurant</h5>
+    <h5>A Japanese cuisine restaurant</h5>
     <p>JQTOUCH + HTML + CSS + Javascript</p>
   </div>
 </a> <!-- Closing #row5-->

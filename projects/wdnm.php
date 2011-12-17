@@ -2,7 +2,7 @@
   <p>
     <span class="info_title">Web Design New Media</span>
     <span class="info_content">
-      A wordpress site
+      A Wordpress site
     </span>
   </p>
 </div>

@@ -66,7 +66,7 @@
 <div class="img" id="img8">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Indoor Signage</span>
+    <span class="header">Indoor Sign-age</span>
     <span class="content">Indoor Branding</span>
   </p>
 </div> 
@@ -74,7 +74,7 @@
 <div class="img" id="img9">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Outdoor Signage</span>
+    <span class="header">Outdoor Sign-age</span>
 <!--     <span class="content"></span> -->
   </p>
 </div>  

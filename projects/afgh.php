@@ -29,7 +29,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">The Black Book</span>
-    <span class="content">This small 10 page book that fits inside the box, has a Rumi pome with pictures from Afghanistan's beautiful landscapes</span>
+    <span class="content">This small 10 page book that fits inside the box, has a Rumi poem with pictures from Afghanistan's beautiful landscapes</span>
   </p>
 </div>
 
@@ -45,6 +45,6 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Inside the Black Book</span>
-    <span class="content">Hand typed using an old Russian type writter a brief script about what really is afghanistan</span>
+    <span class="content">Hand typed using an old Russian type writer a brief script about what really is Afghanistan</span>
   </p>
 </div>
