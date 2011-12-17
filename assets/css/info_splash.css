@@ -1,0 +1,35 @@
+/* line 3, ../sass/info_splash.scss */
+#info_container {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  -moz-box-shadow: inset 0 0 15px black;
+  -webkit-box-shadow: inset 0 0 15px black;
+  -o-box-shadow: inset 0 0 15px black;
+  box-shadow: inset 0 0 15px black;
+  /*   @include border-radius(5px); */
+}
+/* line 14, ../sass/info_splash.scss */
+#info_container #info_resize_box {
+  font: 38px/40px "Jelly", Arial, sans-serif;
+  color: white;
+  width: 500px;
+  height: 110px;
+  position: absolute;
+  /*     bottom: 0; */
+  right: 0;
+}
+/* line 22, ../sass/info_splash.scss */
+#info_container #info_resize_box .arrow {
+  display: block;
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url("../img/arrow.png") no-repeat;
+}

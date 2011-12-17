@@ -1,0 +1,39 @@
+<div id="info_container">
+  <div id="info_resize_box">
+    This site was built using a liquid grid system.<br>
+    Check it out in a mobile device or try resizing your window!
+    <span class='arrow'>
+    
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+
+    // the Background
+    x$("#info_container").each(function(content){
+      var bHeight = document.body.offsetHeight + 'px'
+      x$(content).setStyle('height', bHeight);
+      x$(content).on('click', function(){
+        x$(this).addClass("hide_me")
+        createCookie('splash','true','1')
+      });
+    });
+  
+    // the resize box
+    x$("#info_resize_box").each(function(w) {
+      var wh = window.innerHeight - 120
+      x$(w).setStyle('top', wh + "px")
+      
+      window.onresize = function() {
+       // console.log(document.body.offsetWidth);
+       var sw = wh
+       console.log(sw)
+
+       x$("#info_container").each(function(i){
+        x$(i).setStyle('display','none');
+        createCookie('splash','true','1')
+       })
+      }
+    });
+
+</script>
