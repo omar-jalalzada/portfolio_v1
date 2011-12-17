@@ -9,7 +9,18 @@
   </div>
   	
   </div> <!--! end of #container -->
-
+<!--
+  <script type="text/javascript">
+    (function() {
+      var e = document.createElement('script'); 
+          e.type = 'text/javascript'; 
+          e.src = 'assets/js/script.js';
+          e.async = true;
+          console.log(e);
+          document.body.appendChild(e);
+    }());
+  </script>
+-->
  <!-- scripts concatenated and minified via build script -->
   <script defer src="assets/js/script.js"></script>
   <!-- end scripts -->
@@ -22,8 +33,11 @@
   
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var s = document.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(ga, s);
+      
     })();
   
   </script>

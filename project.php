@@ -66,9 +66,142 @@ if ($cat == "mobile") {
     $p_title = "Eats";
     $p_file_name = "eats.php";
   }
+}
+
+if ($cat == "web") {
+  if ( $proj == "virtus") {
+    $p_wrapper_class = 'virtus';
+    $p_title = "Virtus Resources Group LLC";
+    $p_file_name = "virtus.php";
+  }
   
+  if ( $proj == "wasabi-w") {
+    $p_wrapper_class = 'wasabi';
+    $p_title = "Wasabi Grill";
+    $p_file_name = "wasabi-w.php";
+  }
+  
+  if ( $proj == "hf") {
+    $p_wrapper_class = 'hf';
+    $p_title = "Half Full";
+    $p_file_name = "hf.php";
+  }
+  
+  if ( $proj == "wdnm") {
+    $p_wrapper_class = 'wdnm';
+    $p_title = "Web Design New Media";
+    $p_file_name = "wdnm.php";
+  }
+  
+  if ( $proj == "hurt") {
+    $p_wrapper_class = 'hurt';
+    $p_title = "Hurt Locker";
+    $p_file_name = "hurt.php";
+  }
+  
+  if ( $proj == "zeal-w") {
+    $p_wrapper_class = 'zeal_w';
+    $p_title = "Zeal";
+    $p_file_name = "zeal_w.php";
+  }
+  
+  if ( $proj == "htn") {
+    $p_wrapper_class = 'htn';
+    $p_title = "How To Nap";
+    $p_file_name = "htn.php";
+  }
+}
+
+/* Imaging and Photography */
+if ($cat == "ip") {
+  if ( $proj == "apple") {
+    $p_wrapper_class = 'apple';
+    $p_title = "Apple Care";
+    $p_file_name = "apple.php";
+  }
+  if ( $proj == "styling") {
+    $p_wrapper_class = 'styling';
+    $p_title = "Duplicitous";
+    $p_file_name = "duplicitous.php";
+  }
+  if ( $proj == "grief") {
+    $p_wrapper_class = 'grief';
+    $p_title = "Human Grief";
+    $p_file_name = "grief.php";
+  }
+  if ( $proj == "andgny") {
+    $p_wrapper_class = 'androgyny full-width';
+    $p_title = "Androgyny";
+    $p_file_name = "andro.php";
+  }
+  if ( $proj == "future") {
+    $p_wrapper_class = 'future';
+    $p_title = "YEAR 3786 A.D.";
+    $p_file_name = "robot.php";
+  }
+  if ( $proj == "giant") {
+    $p_wrapper_class = 'giant';
+    $p_title = "Walking Giant";
+    $p_file_name = "giant.php";
+  }
+}
+
+/* Motion Graphics & Audio */
+if ($cat == "mg") {
+
+  if ( $proj == "mohammad") {
+    $p_wrapper_class = 'mohammad';
+    $p_title = "Mohammad Ali";
+    $p_file_name = "mohammad.php";
+  }
+  if ( $proj == "smoking") {
+    $p_wrapper_class = 'a_smoke';
+    $p_title = "Anti Smocking Campaign";
+    $p_file_name = "antismocking.php";
+  }
+  if ( $proj == "monkey") {
+    $p_wrapper_class = 'monkey';
+    $p_title = "Monkey Freak!";
+    $p_file_name = "monkeyfreak.php";
+  }
+  if ( $proj == "kabul") {
+    $p_wrapper_class = 'kabul';
+    $p_title = "Kabul is singing";
+    $p_file_name = "monkeyfreak.php";
+  }
+  if ( $proj == "dream") {
+    $p_wrapper_class = 'dream';
+    $p_title = "I have his dream";
+    $p_file_name = "dream.php";
+  }
+  if ( $proj == "ss") {
+    $p_wrapper_class = 'sscore';
+    $p_title = "Sound Scoring";
+    $p_file_name = "sscore.php";
+  }
+  if ( $proj == "comp") {
+    $p_wrapper_class = 'csound';
+    $p_title = "Hand Made SoundTrack";
+    $p_file_name = "csound.php";
+  }
   
 }
+
+if ($cat == "fa") {
+
+  if ( $proj == "afgh") {
+    $p_wrapper_class = 'afgh';
+    $p_title = "Afghanistan";
+    $p_file_name = "afgh.php";
+  }
+  if ( $proj == "idiom") {
+    $p_wrapper_class = 'idiom';
+    $p_title = "Idiomatic Expressions";
+    $p_file_name = "idiom.php";
+  }
+  
+}
+
 include("header.php");
  
  

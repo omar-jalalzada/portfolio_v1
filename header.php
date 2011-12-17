@@ -1,7 +1,5 @@
 <?php
 $cat = $_GET["cat"];
-/* echo "$brand"; */
-
 
 /* For category pages */
 if ( $cat == "branding") {
@@ -9,7 +7,11 @@ if ( $cat == "branding") {
   $title = "Branding";
   $file_name = "Branding.php";
 }
-
+else if ( $cat == "interactive") {
+  $wrapper_class = 'interactive';
+  $title = "Interactive Mobile & Desktop";
+  $file_name = "interactive.php";
+}
 else if ( $cat == "web") {
   $wrapper_class = 'web_design';
   $title = "Web Design and Dev";
@@ -32,7 +34,7 @@ else if ( $cat == "mg") {
 }
 else if ( $cat == "fa") {
   $wrapper_class = 'fine_art';
-  $title = "Fine Arts";
+  $title = "Fine Art";
   $file_name = "fa.php";
 }
 else if ( $cat == "3d") {
@@ -40,8 +42,20 @@ else if ( $cat == "3d") {
   $title = "3D";
   $file_name = "3d.php";
 }
+
+
+/* if nothing is defined */
 else if ( $cat == null) {
   $title = "Omar Jalalzada's Portfolio";
+}
+
+
+/* About me section */
+$about = $_GET["about"];
+
+if ( $about == "bali") {
+  $title = "About Me";
+  $wrapper_class = 'about_me';
 }
 
 ?>
@@ -61,23 +75,21 @@ else if ( $cat == null) {
     echo "<title>$p_title</title>";
   }
   
-  
   ?>
 	
 	<meta name="description" content="Omar's Jalalzada Portfolio Site">
 	<meta name="author" content="Omar Jalalzada">
   <meta name="Copyright" content="Copyright © 2011 Omar Jalalzada">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link rel="stylesheet" href="assets/css/main.css">
-	<!--
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-  -->
+<!--   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+ 
   
 </head>
 <body class="home_page">
-
+      <div id="splash_placeholder"></div>
+      
   <!-- Contact me modal container -->
   <div id="contact_me_container">
     <div id="contact_content">

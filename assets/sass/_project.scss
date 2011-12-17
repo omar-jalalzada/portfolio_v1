@@ -6,26 +6,25 @@
           height: 30px;
         }
         #sub_nav{
-          display: none;
           height: 20px;
           position: relative;
           width: 100%;
-          &.show {
-            display: block;
-          }
           ul {
+            display: none;
+            &.show {
+              display: block;
+            }
             position: absolute;
             bottom: 0;
-            left: 44px;
+            left: 146px;
             margin: 0;
-            display: block;
             overflow: hidden;
             height: 20px;
             width: 100%;
             li { 
               font-family: 'BigNoodle', Arial, sans-serif;
               display: inline-block;
-              margin-right: 8px;
+              margin-right: 15px;
               font-size: 16px;
               &:last-child {
                 margin-right: 0;
@@ -112,7 +111,7 @@
   
   
   
-  .project_pantone {
+  .pantone {
     #img1 {
       .pic {
         background: url('../img/project/pantone/1.jpg') no-repeat center;
@@ -159,13 +158,398 @@
       }
     }
   }
+  
+  .agrion {
+  
+    #img1 {
+      .pic {
+        background: url('../img/project/agrion/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/agrion/7.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/agrion/2.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/agrion/3.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/agrion/4.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/agrion/5.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/agrion/6.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .zeal {
+    #img1 {
+      .pic {
+        background: url('../img/project/zeal/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/zeal/4.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/zeal/2.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/zeal/3.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/zeal/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/zeal/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/zeal/7.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .ie {
+    #img1 {
+      .pic {
+        background: url('../img/project/ie/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/ie/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/ie/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/ie/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/ie/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/ie/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/ie/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/ie/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/ie/9.jpg') no-repeat center;
+      }
+    }
+    #img10 {
+      .pic {
+        background: url('../img/project/ie/10.jpg') no-repeat center;
+      }
+    }
+    #img11 {
+      .pic {
+        background: url('../img/project/ie/11.jpg') no-repeat center;
+      }
+    }
+    #img12 {
+      .pic {
+        background: url('../img/project/ie/12.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .apple {
+   #img1 {
+      .pic {
+        background: url('../img/project/imaging/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/imaging/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/imaging/3.jpg') no-repeat center;
+      }
+    }
+  }
+  
+
+  .styling {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+  
+  
+    #img1 {
+      .pic {
+        background: url('../img/project/photography/dup/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/dup/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/dup/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/dup/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/photography/dup/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/photography/dup/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/photography/dup/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/photography/dup/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/photography/dup/9.jpg') no-repeat center;
+      }
+    }
+    #img10 {
+      .pic {
+        background: url('../img/project/photography/dup/10.jpg') no-repeat center;
+      }
+    }
+    #img11 {
+      .pic {
+        background: url('../img/project/photography/dup/11.jpg') no-repeat center;
+      }
+    }
+    #img12 {
+      .pic {
+        background: url('../img/project/photography/dup/12.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .grief {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+   #img1 {
+      .pic {
+        background: url('../img/project/photography/gr/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/gr/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/gr/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/gr/4.jpg') no-repeat center;
+      }
+    }
+
+  }
+  
+  .androgyny {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/photography/andro/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/andro/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/andro/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/andro/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/photography/andro/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/photography/andro/6.jpg') no-repeat center;
+      }
+    } 
+  }
+  
+  .future {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/imaging/3786/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/imaging/3786/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/imaging/3786/3.jpg') no-repeat center;
+      }
+    }
+
+  }
+  
+  .afgh {
+    #img1 {
+      .pic {
+        background: url('../img/project/afgh/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/afgh/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/afgh/3.jpg') no-repeat center;
+      }
+    }
+    #img4{
+      .pic {
+        background: url('../img/project/afgh/4.jpg') no-repeat center;
+      }
+    }
+    #img5{
+      .pic {
+        background: url('../img/project/afgh/5.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .idiom {
+  
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    
+    #img1 {
+      .pic {
+        background: url('../img/project/idiom/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/idiom/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/idiom/3.jpg') no-repeat center;
+      }
+    }
+  }
+
+
 }
 
 @media only screen and  (max-width: 768px) {
               
  #sub_nav{
   ul {
-    left: 2px !important;
+    left: 55px !important;
     }
   }
   
@@ -176,12 +560,24 @@
       }
     }
   }
+  #wrapper.styling, #wrapper.grief, #wrapper.androgyny, #wrapper.future, #wrapper.idiom  {
+    .img .pic {
+      height: 410px !important;
+    }
+  }
 }
 
 
 
 @media only screen and  (max-width: 481px) {
+ #sub_nav{
+  ul {
+    left: 0px !important;
+    }
+  }
+  
   #wrapper.project_wrapper {
+  
   
    #box3.nav {
       #header {
@@ -203,13 +599,14 @@
       
     }
   }
+
 }
 
 @media only screen and  (max-width: 481px) and (orientation:portrait) { 
  #wrapper.project_wrapper {
     .img {
       .pic {
-        height: 165px !important;
+        height: 168px !important;
       }      
     }
   }

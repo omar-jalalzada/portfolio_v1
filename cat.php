@@ -1,7 +1,5 @@
 <?php 
-
 include("header.php");
- 
  
 if ( $title == null ) {
   echo "<div id=\"wrapper\">";
@@ -14,6 +12,5 @@ else {
   echo "</div> <!-- Ending #Wrapper -->";  
 }
 
+include("footer.php"); 
 ?>
-
-<?php include("footer.php"); ?>

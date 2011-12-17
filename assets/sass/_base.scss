@@ -272,6 +272,22 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 }
 
+
+
+@font-face {
+    font-family: 'Jelly';
+    src: url('fonts/jellyka_cuttycupcakes-webfont.eot');
+    src: url('fonts/jellyka_cuttycupcakes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/jellyka_cuttycupcakes-webfont.woff') format('woff'),
+         url('fonts/jellyka_cuttycupcakes-webfont.ttf') format('truetype'),
+         url('fonts/jellyka_cuttycupcakes-webfont.svg#JellykaCuttyCupcakesRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 /*
 @media only screen and (min-width: 480px) {
 
