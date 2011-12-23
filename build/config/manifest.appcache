@@ -1,17 +1,17 @@
 CACHE MANIFEST
 
-# version xxxxxxxxx
+version 1.0
 
 CACHE:
 # html files
 
 
 # css files
-
+style.css
 
 
 # js files
-
+script.js
 
 
 # image files

@@ -8,15 +8,15 @@ include("header.php");
         <div class="box" id="box4"></div>
         <div class="box" id="box5"></div>
 -->
-        <a class="box" href="http://m.invitrogen.com" target="_blank" id="box6">
-<!--         <a class="box" href="project.php?cat=mobile&proj=invitrogen" id="box6"> -->
+
+
+        <a class="box" href="project.php?cat=web&proj=virtus" id="box6">
           <div class="lateload" ></div>
           <div class="title">
-            <h4>Invitrogen</h4>
-            <h5>Mobile Sites</h5>
+            <h4>Virtus</h4>
+            <h5>Web Design/Dev</h5>
           </div>
         </a> <!-- Closing #box6 -->
-        
         
         <a class="box" href="project.php?cat=branding&proj=agrion" id="box7">
           <div class="lateload" ></div>
@@ -41,12 +41,14 @@ include("header.php");
             <h5>Process Journal</h5>
           </div>
         </a> <!-- Closing #box9 -->
-        
-        <a class="box" href="project.php?cat=web&proj=virtus" id="box10">
+
+
+        <a class="box" href="http://m.invitrogen.com" target="_blank" id="box10">
+<!--         <a class="box" href="project.php?cat=mobile&proj=invitrogen" id="box6"> -->
           <div class="lateload" ></div>
           <div class="title">
-            <h4>Virtus</h4>
-            <h5>Web Design/Dev</h5>
+            <h4>Invitrogen</h4>
+            <h5>Mobile Sites</h5>
           </div>
         </a> <!-- Closing #box14 -->
         
@@ -75,7 +77,7 @@ include("header.php");
         </a> <!-- Closing #box13 -->
         
         
-        <a class="box" href="project.php?cat=web&proj=wasabi-we" id="box14">
+        <a class="box" href="http://wasabi.ojtwisted.com" id="box14">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Wasabi Grill</h4>
