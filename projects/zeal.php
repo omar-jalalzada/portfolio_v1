@@ -11,7 +11,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Product Shot</span>
-    <span class="content">Products..</span>
+    <span class="content">3D generated mock-up of the actual product</span>
   </p>
 </div>
 
