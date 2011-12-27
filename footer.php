@@ -4,8 +4,8 @@
   	
   	
   <div id="footer">
-    <p class='copyright'>&#169 Omar Jalalzada 2011, All right reserved</p>
-    <a class='ir'href='http://creativecommons.org/licenses/by-nc-nd/3.0/' target="_blank">Copyrights</a>
+    <p class="copyright" >&#169 Omar Jalalzada 2011, All right reserved</p>
+    <a class="ir" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">Copyrights</a>
   </div>
   	
   </div> <!--! end of #container -->
