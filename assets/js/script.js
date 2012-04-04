@@ -289,6 +289,10 @@ x$(document).on("DOMContentLoaded", function() {
 
 });
 
+
+function not_available() {
+  alert("Sorry, this project is not available at the moment.")
+}
 /*
 if (is_iphone) { 
   x$("#box3").addClass("yeaBuddy");
