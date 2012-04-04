@@ -10,7 +10,8 @@ include("header.php");
 -->
 
 
-        <a class="box" href="project.php?cat=web&proj=virtus" id="box6">
+        <!-- <a class="box" href="project.php?cat=web&proj=virtus" id="box6"> -->
+        <a class="box" href="http://virtusrg.com/" id="box6">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Virtus</h4>
@@ -52,7 +53,8 @@ include("header.php");
           </div>
         </a> <!-- Closing #box14 -->
         
-        <a class="box" href="projects/dossier.html" id="box11">
+        <!-- <a class="box" href="projects/dossier.html" id="box11"> -->
+        <a class="box" onclick="not_available();" id="box11">
           <div class="lateload"></div>
           <div class="title">
             <h4>Designer Dossier</h4>
@@ -85,7 +87,7 @@ include("header.php");
           </div>
         </a> <!-- Closing #box14 -->
         
-        <a class="box" href="project.php?cat=mg&proj=afgh" id="box15">
+        <a class="box" href="project.php?cat=fa&proj=afgh" id="box15">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Afghanistan</h4>
@@ -110,7 +112,8 @@ include("header.php");
         </a> <!-- Closing #box17 -->
         
         
-        <a class="box" href="project.php?cat=web&proj=hurt" id="box18">
+        <!-- <a class="box" href="project.php?cat=web&proj=hurt" id="box18"> -->
+        <a class="box" onclick="not_available();" id="box18">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Hurt Locker</h4>
@@ -119,6 +122,7 @@ include("header.php");
         </a> <!-- Closing #box18 -->
         
         <a class="box" href="projects/virtus.html" id="box19">
+        <a class="box" onclick="not_available();" id="box19">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Blue Angles</h4>
@@ -126,7 +130,8 @@ include("header.php");
           </div>
         </a> <!-- Closing #box19 -->
         
-        <a class="box" href="projects/haagen.html" id="box20">
+        <!-- <a class="box" href="projects/haagen.html" id="box20"> -->
+        <a class="box" onclick="not_available();" id="box20">
           <div class="lateload" ></div>
           <div class="title">
             <h4>Haggen Dazs</h4>
