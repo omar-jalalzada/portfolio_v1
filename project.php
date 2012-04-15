@@ -130,7 +130,7 @@ if ($cat == "ip") {
     $p_file_name = "grief.php";
   }
   if ( $proj == "andgny") {
-    $p_wrapper_class = 'androgyny full-width';
+    $p_wrapper_class = 'androgyny';
     $p_title = "Androgyny";
     $p_file_name = "andro.php";
   }
