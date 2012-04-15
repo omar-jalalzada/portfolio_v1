@@ -74,7 +74,7 @@
         <li class='styling'><a class="row" href="project.php?cat=ip&proj=styling">Duplicitous</a></li>
         <li class='grief'><a class="row" href="project.php?cat=ip&proj=grief">Grief</a></li>
         <li class='androgyny'><a class="row" href="project.php?cat=ip&proj=andgny">Androgyny</a></li>
-        <li class='future'><a class="row" href="project.php?cat=ip&proj=future">3786</a></li>
+        <li style='display:none;' class='future'><a class="row" href="project.php?cat=ip&proj=future">3786</a></li>
         <li style='display:none;' class='giant'><a class="row" href="project.php?cat=ip&proj=giant">Giant</a></li>
       </ul>
       
