@@ -2,8 +2,9 @@
   <p>
     <span class="info_title">Human Grief</span>
     <span class="info_content">
-      Exaggerated expression of sadness, just staring in the eye of any individual will trigger the sympathy emotions,
-      there are key elements in the expression that has been targeted to spark that particular feeling in the viewer.
+      Targetting key emotions in viewer's preceptions and triggering those feelings with exaggerated expressions.
+      In this case, conveying greif and saddness as the viewers sympathize with the subject. Making this possible by making the key triggers
+      stand out from the rest of the portrait.
     </span>
   </p>
 </div>

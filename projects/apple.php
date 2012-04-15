@@ -2,7 +2,7 @@
   <p>
     <span class="info_title">Apple Care Protection Plan</span>
     <span class="info_content">
-      Apple Care
+      A concept project about Apple's protection plan against water damages to thier devices.
     </span>
   </p>
 </div>

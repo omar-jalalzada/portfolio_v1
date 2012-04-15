@@ -27,7 +27,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Color Palette</span>
-    <span class="content">Brand colors and.. </span>
+    <span class="content">Brand's color pallete</span>
   </p>
 </div>
 
