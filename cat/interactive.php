@@ -1,5 +1,5 @@
 <!-- <a class="row" href="project.php?cat=mobile&proj=asda" id="row1"> -->
-<a class="row" href="project.php?cat=mobile&proj=invitrogen" target="_blank" id="row1">
+<a class="row" href="project.php?cat=mobile&proj=invitrogen" id="row1">
 
   <div class="lateload" ></div>
   <div class="title">
