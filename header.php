@@ -94,9 +94,9 @@ if ( $about == "bali") {
   <div id="contact_me_container">
     <div id="contact_content">
       <p>
-          <a class="contact" href="mailto:theboss@ojtwisted.com">
+          <a class="contact" href="mailto:omar@ojtwisted.com">
             <span class='icon lateload'></span>
-            theboss@ojtwisted.com
+            omar@ojtwisted.com
           </a>
         
           <a href="tel:16503880106">
@@ -132,3 +132,12 @@ if ( $about == "bali") {
       	<div id="main" role="main">
     
   <!-- ENDING HEADER.PHP -->
+
+
+
+
+
+
+
+
+

@@ -13,13 +13,11 @@
     <div id="main_title">
 
     <?php 
-
       if ($p_title == null) {
         echo "<h2>$title</h2>";
       } else {
         echo "<h2>$p_title</h2>";
       }
-    
     ?>
          
     </div> <!-- Closing #main_title -->
@@ -50,12 +48,12 @@
       </ul>
 
       <ul  class="<?php if ( $wrapper_class == 'mobile' ) { echo "show";} ?>" >
-        <li class='asda'><a href="project.php?cat=mobile&proj=asda" >Asda</a></li>
-        <li class='life'><a class="row" href="project.php?cat=mobile&proj=life">LifeTechnologies</a></li>
-        <li class='tw'><a class="row" href="project.php?cat=mobile&proj=tw">TicketWeb</a></li>
+        <li style="display: none;"class='asda'><a href="project.php?cat=mobile&proj=asda" >Asda</a></li>
+        <li style="display: none;"class='life'><a class="row" href="project.php?cat=mobile&proj=life">LifeTechnologies</a></li>
+        <li style="display: none;"class='tw'><a class="row" href="project.php?cat=mobile&proj=tw">TicketWeb</a></li>
         <li class='invitrogen'><a class="row" href="project.php?cat=mobile&proj=invitrogen">Invitrogen</a></li>
-        <li class='wasabi'><a class="row" href="project.php?cat=mobile&proj=wasabi">Wasabi Grill</a></li>
-        <li class='eats'><a class="row" href="project.php?cat=mobile&proj=eats">Eats</a></li>
+        <li style="display: none;"class='wasabi'><a class="row" href="project.php?cat=mobile&proj=wasabi">Wasabi Grill</a></li>
+        <li style="display: none;"class='eats'><a class="row" href="project.php?cat=mobile&proj=eats">Eats</a></li>
       </ul>
       
       <ul  class="<?php if ( $wrapper_class == 'web_design' ) { echo "show";} ?>" >
@@ -88,7 +86,6 @@
         <li class='csound'><a class="row" href="project.php?cat=mg&proj=comp">Custom</a></li>
       </ul>
       
-
     </div>
   </div> <!-- Closing #nav_conatainer -->
 </div> <!-- Closing #box3 -->

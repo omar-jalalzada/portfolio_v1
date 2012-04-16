@@ -121,7 +121,7 @@ include("header.php");
           </div>
         </a> <!-- Closing #box18 -->
         
-        <a class="box" href="projects/virtus.html" id="box19">
+        <!-- <a class="box" href="projects/virtus.html" id="box19"> -->
         <a class="box" onclick="not_available();" id="box19">
           <div class="lateload" ></div>
           <div class="title">

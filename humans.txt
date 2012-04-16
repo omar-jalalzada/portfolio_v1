@@ -8,6 +8,6 @@
   Names (& URL): 
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: Uranium
+  Standards: HTML, PHP, CSS3, JAVASCRIPT
+  Components: Uranium, H5BP
   Software:

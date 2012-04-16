@@ -543,6 +543,32 @@
   }
 
 
+  .invitrogen {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/invitrogen/homepage.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/invitrogen/search.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/invitrogen/pdp.jpg') no-repeat center;
+      }
+    }
+  }
+
+
 }
 
 @media only screen and  (max-width: 768px) {
