@@ -2,7 +2,9 @@
   <p>
     <span class="info_title">Invitrogen</span>
     <span class="info_content">
-      Mobile UI/UX design
+      Having full control over the mobile UI/UX design of this particular project, I made sure to integrate the clients brand into the mobile site with a sleek and minimalistic UI and a user friendly expierence through their content.
+
+    </br><em>Update: Invitrogen's website has been merged to its mother company lifetechnologies.com</em>
     </span>
   </p>
 </div>

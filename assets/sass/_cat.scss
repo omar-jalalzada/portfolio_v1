@@ -9,22 +9,25 @@
     .title {
       float: right;
       width: 21%;
-      /* height: 96%; */
       display: block;
       margin: 0;
       padding: 5px 1%;
-      font-family: 'BigNoodle', Arial, sans-serif;
       text-align: left;
       h4, h5 {
         color: #444;
-        font-size: 18px;
         font-weight: normal;
         margin: 0;
         padding: 0;
         text-shadow: 0 1px 1px #fff;
       }
       h4 {
-        font-size: 32px;
+        font: 16px/20px 'TitilliumText22LBold', Verdana, sans-serif;
+      }
+      h5 {
+        font: 14px/20px 'TitilliumText22LRegular', Verdana, sans-serif;
+      }
+      p {
+        font: 14px/18px 'BigNoodle', Verdana, sans-serif;
       }
     }
     .pic {
@@ -274,19 +277,19 @@
 }
 
 
-.mograph, .mobile, .web_design, .interactive {
-  .row {
-    .title {  
-      h5 {
-        font: 14px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
-      }
-      h4 {
-        font: 16px/20px 'TitilliumText22LBold', Verdana, sans-serif;
-      }  
-    }
-  }
+// .mograph, .interactive {
+//   .row {
+//     .title {  
+//       h5 {
+//         font: 14px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+//       }
+//       h4 {
+//         font: 16px/20px 'TitilliumText22LBold', Verdana, sans-serif;
+//       }  
+//     }
+//   }
 
-}
+// }
 
 .fine_art {
   #row1 {

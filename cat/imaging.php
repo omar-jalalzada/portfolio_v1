@@ -39,19 +39,21 @@
   </div>
 </a> <!-- Closing #row5 -->
 
-<a class="row" href="project.php?cat=ip&proj=future" id="row6">
+<!-- <a class="row" href="project.php?cat=ip&proj=future" id="row6">
   <div class="lateload" ></div>
   <div class="title">
     <h4>Year 3786 A.D.</h4>
     <h5>Self portrait</h5>
   </div>
-</a> <!-- Closing #row6 -->
+</a>  -->
+<!-- Closing #row6 -->
 
-<a style='display:none;' class="row" href="project.php?cat=ip&proj=giant" id="row7">
+<!-- <a class="row" href="project.php?cat=ip&proj=giant" id="row7">
   <div class="lateload" ></div>
   <div class="title">
     <h4>Walking Giant</h4>
     <h5>ComingSoon!</h5>
   </div>
-</a> <!-- Closing #row7 -->
+</a>  -->
+<!-- Closing #row7 -->
 

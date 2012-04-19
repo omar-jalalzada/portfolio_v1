@@ -4,7 +4,7 @@
   <div class="lateload" ></div>
   <div class="title">
     <h4>Invitrogen</h4>
-    <h5>Note: Site currently down due to companies merging</h5>
+    <h5>A LifeTechnologies subsidary that was merged to its mother company after development</h5>
     <p>HTML + CSS + XUI + Uranium + Tritium</p>
   </div>
 
@@ -16,7 +16,7 @@
   <div class="title">
     <h4>Virtus</h4>
     <h5>Providing protective and training support</h5>
-    <p>HTML + CSS + JQuery + Javascirpt</p>
+    <p>HTML + CSS + JQuery + Javascirpt + PageLime</p>
   </div>
 </a> <!-- Closing #row4 -->
 
@@ -38,7 +38,7 @@
   <div class="title">
     <h4>Half Full</h4>
     <h5>An optimistic blog</h5>
-    <p>PHP + HTML + CSS + JQuery + Javascirpt</p>
+    <p>Wordpress + PHP + HTML + CSS + JQuery + Javascirpt</p>
   </div>
 </a> <!-- Closing #row2 -->
 
@@ -60,7 +60,7 @@
   <div class="title">
     <h4>Zeal</h4>
     <h5>Energy Drink</h5>
-    <p>AC3 + Cinema4D + AfterEffects + Illustrator</p>
+    <p>AC3 + Flash + Cinema4D + AfterEffects + Illustrator + Photoshop</p>
   </div>
 </a> <!-- Closing #row6-->
 
