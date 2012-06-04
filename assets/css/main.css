@@ -1284,27 +1284,32 @@ body.ipad {
 .cat_wrapper .row .title {
   float: right;
   width: 21%;
-  /* height: 96%; */
   display: block;
   margin: 0;
   padding: 5px 1%;
-  font-family: 'BigNoodle', Arial, sans-serif;
   text-align: left;
 }
-/* line 18, ../sass/_cat.scss */
+/* line 16, ../sass/_cat.scss */
 .cat_wrapper .row .title h4, .cat_wrapper .row .title h5 {
   color: #444;
-  font-size: 18px;
   font-weight: normal;
   margin: 0;
   padding: 0;
   text-shadow: 0 1px 1px #fff;
 }
-/* line 26, ../sass/_cat.scss */
+/* line 23, ../sass/_cat.scss */
 .cat_wrapper .row .title h4 {
-  font-size: 32px;
+  font: 16px/20px "TitilliumText22LBold", Verdana, sans-serif;
 }
-/* line 30, ../sass/_cat.scss */
+/* line 26, ../sass/_cat.scss */
+.cat_wrapper .row .title h5 {
+  font: 14px/20px "TitilliumText22LRegular", Verdana, sans-serif;
+}
+/* line 29, ../sass/_cat.scss */
+.cat_wrapper .row .title p {
+  font: 14px/18px "BigNoodle", Verdana, sans-serif;
+}
+/* line 33, ../sass/_cat.scss */
 .cat_wrapper .row .pic {
   display: block;
   float: left;
@@ -1322,19 +1327,19 @@ body.ipad {
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.8), 0 -1px 1px rgba(250, 250, 250, 0.9);
 }
 
-/* line 46, ../sass/_cat.scss */
+/* line 49, ../sass/_cat.scss */
 .branding #row1 .pic {
   background-image: url("../img/cat/agrion.jpg");
 }
-/* line 51, ../sass/_cat.scss */
+/* line 54, ../sass/_cat.scss */
 .branding #row2 .pic {
   background-image: url("../img/cat/pantone.jpg");
 }
-/* line 56, ../sass/_cat.scss */
+/* line 59, ../sass/_cat.scss */
 .branding #row3 .pic {
   background-image: url("../img/cat/zeal.jpg");
 }
-/* line 61, ../sass/_cat.scss */
+/* line 64, ../sass/_cat.scss */
 .branding #row4 .pic {
   background-image: url("../img/cat/island.jpg");
 }
@@ -1416,144 +1421,135 @@ body.ipad {
 }
 
 */
-/* line 146, ../sass/_cat.scss */
+/* line 149, ../sass/_cat.scss */
 .interactive .row .title p {
   letter-spacing: 1px;
 }
-/* line 154, ../sass/_cat.scss */
+/* line 157, ../sass/_cat.scss */
 .interactive #row1 .pic {
   background-image: url("../img/cat/invitrogen.jpg");
 }
-/* line 161, ../sass/_cat.scss */
+/* line 164, ../sass/_cat.scss */
 .interactive #row2 .pic {
   background-image: url("../img/cat/virtus.jpg");
 }
-/* line 167, ../sass/_cat.scss */
+/* line 170, ../sass/_cat.scss */
 .interactive #row3 .pic {
   background-image: url("../img/cat/lifetech.jpg");
 }
-/* line 174, ../sass/_cat.scss */
+/* line 177, ../sass/_cat.scss */
 .interactive #row4 .pic {
   background-image: url("../img/cat/half_full.jpg");
 }
-/* line 180, ../sass/_cat.scss */
+/* line 183, ../sass/_cat.scss */
 .interactive #row5 .pic {
   background-image: url("../img/cat/ticketweb.jpg");
 }
-/* line 186, ../sass/_cat.scss */
+/* line 189, ../sass/_cat.scss */
 .interactive #row6 .pic {
   background-image: url("../img/cat/zeal_website.jpg");
 }
-/* line 192, ../sass/_cat.scss */
+/* line 195, ../sass/_cat.scss */
 .interactive #row7 .pic {
   background-image: url("../img/cat/asda.jpg");
 }
-/* line 198, ../sass/_cat.scss */
+/* line 201, ../sass/_cat.scss */
 .interactive #row8 .pic {
   background-image: url("../img/cat/wasab_desktop.jpg");
 }
-/* line 205, ../sass/_cat.scss */
+/* line 208, ../sass/_cat.scss */
 .interactive #row9 .pic {
   background-image: url("../img/cat/wasabi.jpg");
 }
-/* line 211, ../sass/_cat.scss */
+/* line 214, ../sass/_cat.scss */
 .interactive #row10 .pic {
   background-image: url("../img/cat/hurt_locker.jpg");
 }
-/* line 217, ../sass/_cat.scss */
+/* line 220, ../sass/_cat.scss */
 .interactive #row11 .pic {
   background-image: url("../img/cat/wdnm.jpg");
 }
-/* line 223, ../sass/_cat.scss */
+/* line 226, ../sass/_cat.scss */
 .interactive #row12 .pic {
   background-image: url("../img/cat/how_nap.jpg");
 }
-/* line 229, ../sass/_cat.scss */
+/* line 232, ../sass/_cat.scss */
 .interactive #row13 .pic {
   background-image: url("../img/cat/eats.jpg");
 }
 
-/* line 238, ../sass/_cat.scss */
+/* line 241, ../sass/_cat.scss */
 .imaging #row1 .pic {
   background-image: url("../img/cat/www.jpg");
 }
-/* line 243, ../sass/_cat.scss */
+/* line 246, ../sass/_cat.scss */
 .imaging #row2 .pic {
   background-image: url("../img/cat/styling.jpg");
 }
-/* line 249, ../sass/_cat.scss */
+/* line 252, ../sass/_cat.scss */
 .imaging #row3 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
-/* line 254, ../sass/_cat.scss */
+/* line 257, ../sass/_cat.scss */
 .imaging #row4 .pic {
   background-image: url("../img/cat/grief.jpg");
 }
-/* line 259, ../sass/_cat.scss */
+/* line 262, ../sass/_cat.scss */
 .imaging #row5 .pic {
   background-image: url("../img/cat/andro.jpg");
 }
-/* line 264, ../sass/_cat.scss */
+/* line 267, ../sass/_cat.scss */
 .imaging #row6 .pic {
   background-image: url("../img/cat/future.jpg");
 }
-/* line 269, ../sass/_cat.scss */
+/* line 272, ../sass/_cat.scss */
 .imaging #row7 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
 
-/* line 280, ../sass/_cat.scss */
-.mograph .row .title h5, .mobile .row .title h5, .web_design .row .title h5, .interactive .row .title h5 {
-  font: 14px/18px "TitilliumText22LRegular", Verdana, sans-serif;
-}
-/* line 283, ../sass/_cat.scss */
-.mograph .row .title h4, .mobile .row .title h4, .web_design .row .title h4, .interactive .row .title h4 {
-  font: 16px/20px "TitilliumText22LBold", Verdana, sans-serif;
-}
-
-/* line 293, ../sass/_cat.scss */
+/* line 296, ../sass/_cat.scss */
 .fine_art #row1 .pic {
   background-image: url("../img/cat/afgh.jpg");
 }
-/* line 298, ../sass/_cat.scss */
+/* line 301, ../sass/_cat.scss */
 .fine_art #row2 .pic {
   background-image: url("../img/cat/idiom.jpg");
 }
-/* line 304, ../sass/_cat.scss */
+/* line 307, ../sass/_cat.scss */
 .fine_art #row3 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
 
-/* line 312, ../sass/_cat.scss */
+/* line 315, ../sass/_cat.scss */
 .three_d #row1 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
-/* line 317, ../sass/_cat.scss */
+/* line 320, ../sass/_cat.scss */
 .three_d #row2 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
-/* line 323, ../sass/_cat.scss */
+/* line 326, ../sass/_cat.scss */
 .three_d #row3 .pic {
   background-image: url("../img/cat/cs.jpg");
 }
 
 @media only screen and  (max-width: 768px) {
-  /* line 332, ../sass/_cat.scss */
+  /* line 335, ../sass/_cat.scss */
   .cat_wrapper .row.video {
     height: 310px !important;
   }
-  /* line 334, ../sass/_cat.scss */
+  /* line 337, ../sass/_cat.scss */
   .cat_wrapper .row.video iframe {
     height: 310px !important;
   }
 }
 @media only screen and (max-width: 481px) {
-  /* line 344, ../sass/_cat.scss */
+  /* line 347, ../sass/_cat.scss */
   .cat_wrapper .row {
     height: inherit !important;
     margin: 0 1% !important;
   }
-  /* line 347, ../sass/_cat.scss */
+  /* line 350, ../sass/_cat.scss */
   .cat_wrapper .row .title {
     width: 98% !important;
     float: none !important;
@@ -1569,19 +1565,19 @@ body.ipad {
             }
     */
   }
-  /* line 362, ../sass/_cat.scss */
+  /* line 365, ../sass/_cat.scss */
   .cat_wrapper .row .pic {
     width: 100% !important;
     float: none !important;
     display: block;
     min-height: 150px;
   }
-  /* line 368, ../sass/_cat.scss */
+  /* line 371, ../sass/_cat.scss */
   .cat_wrapper .row.video {
     height: 170px !important;
     height: inherit !important;
   }
-  /* line 371, ../sass/_cat.scss */
+  /* line 374, ../sass/_cat.scss */
   .cat_wrapper .row.video iframe {
     height: 170px !important;
   }
