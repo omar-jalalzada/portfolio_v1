@@ -2,5 +2,6 @@ assets/.sass-cache
 assets/css
 .sass-cache
 .DS_Store
+.rvmrc
 publish/
 intermediate/
