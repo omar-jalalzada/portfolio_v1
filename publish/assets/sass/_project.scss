@@ -1,0 +1,639 @@
+#container {
+  #wrapper.project_wrapper {
+    .nav {
+      #header {
+        #nav {
+          height: 30px;
+        }
+        #sub_nav{
+          height: 20px;
+          position: relative;
+          width: 100%;
+          ul {
+            display: none;
+            &.show {
+              display: block;
+            }
+            position: absolute;
+            bottom: 0;
+            left: 146px;
+            margin: 0;
+            overflow: hidden;
+            height: 20px;
+            width: 100%;
+            li { 
+              font-family: 'BigNoodle', Arial, sans-serif;
+              display: inline-block;
+              margin-right: 15px;
+              font-size: 16px;
+              &:last-child {
+                margin-right: 0;
+              }
+              a {
+                color: #D81B5F;
+                text-shadow: 0 1px 1px #fff;
+                &:hover {
+                  color: #999;
+                  cursor: pointer;
+                  text-shadow: 0 1px 5px #fff;
+                }
+                &.active {
+                  opacity: 0.3;
+                }
+              }
+            }
+          }
+        }
+      }
+    } // Ending #nav
+    
+    .info {
+      display: block;
+      float: left;
+      margin: 10px 1%;
+      width: 98%;
+      color: #333;
+      text-shadow: 0 1px 1px #eee;
+      p {
+        margin: 0;
+        .info_title {
+          display: block;
+          padding: 10px 10px 0 10px;
+          font-size: 22px;
+          font: 18px/18px 'TitilliumText22LBold', Verdana, sans-serif;
+        }
+        .info_content {
+          display: block;
+          padding: 10px;
+          font-size: 16px;
+          font: 14px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+        }
+      }
+    }
+    .img {
+      display: block;
+      margin: 15px 1%;
+      padding: 5px;
+      clear: left;
+      overflow: hidden;
+      .pic {
+        float: left;
+        width: 74%;
+        height: 425px;
+        display: block;
+        margin: 0;
+        padding: 2%;
+        text-align: left;
+        @include background-size(100%);
+        @include border-radius(5px);
+        @include box-shadow(0 3px 1px rgba(0,0,0,0.8), 0 -1px 1px rgba(250,250,250,0.9));
+      }
+      p {
+        text-shadow: 0 1px 1px #ddd;
+        float: right;
+        width: 17%;
+        padding: 2%;
+        margin: 0;
+        height: 96%;
+        display: block;
+        .header {
+          font: 14px/18px 'TitilliumText22LBold', Verdana, sans-serif;
+          display: block;
+        }
+        .content {
+          font: 12px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+        }
+
+      }
+    }
+  }
+  
+  
+  
+  
+  .pantone {
+    #img1 {
+      .pic {
+        background: url('../img/project/pantone/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/pantone/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/pantone/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/pantone/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/pantone/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/pantone/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/pantone/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/pantone/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/pantone/9.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .agrion {
+  
+    #img1 {
+      .pic {
+        background: url('../img/project/agrion/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/agrion/7.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/agrion/2.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/agrion/3.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/agrion/4.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/agrion/5.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/agrion/6.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .zeal {
+    #img1 {
+      .pic {
+        background: url('../img/project/zeal/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/zeal/4.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/zeal/2.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/zeal/3.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/zeal/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/zeal/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/zeal/7.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .ie {
+    #img1 {
+      .pic {
+        background: url('../img/project/ie/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/ie/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/ie/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/ie/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/ie/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/ie/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/ie/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/ie/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/ie/9.jpg') no-repeat center;
+      }
+    }
+    #img10 {
+      .pic {
+        background: url('../img/project/ie/10.jpg') no-repeat center;
+      }
+    }
+    #img11 {
+      .pic {
+        background: url('../img/project/ie/11.jpg') no-repeat center;
+      }
+    }
+    #img12 {
+      .pic {
+        background: url('../img/project/ie/12.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .apple {
+   #img1 {
+      .pic {
+        background: url('../img/project/imaging/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/imaging/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/imaging/3.jpg') no-repeat center;
+      }
+    }
+  }
+  
+
+  .styling {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+  
+  
+    #img1 {
+      .pic {
+        background: url('../img/project/photography/dup/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/dup/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/dup/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/dup/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/photography/dup/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/photography/dup/6.jpg') no-repeat center;
+      }
+    }
+    #img7 {
+      .pic {
+        background: url('../img/project/photography/dup/7.jpg') no-repeat center;
+      }
+    }
+    #img8 {
+      .pic {
+        background: url('../img/project/photography/dup/8.jpg') no-repeat center;
+      }
+    }
+    #img9 {
+      .pic {
+        background: url('../img/project/photography/dup/9.jpg') no-repeat center;
+      }
+    }
+    #img10 {
+      .pic {
+        background: url('../img/project/photography/dup/10.jpg') no-repeat center;
+      }
+    }
+    #img11 {
+      .pic {
+        background: url('../img/project/photography/dup/11.jpg') no-repeat center;
+      }
+    }
+    #img12 {
+      .pic {
+        background: url('../img/project/photography/dup/12.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .grief {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+   #img1 {
+      .pic {
+        background: url('../img/project/photography/gr/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/gr/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/gr/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/gr/4.jpg') no-repeat center;
+      }
+    }
+
+  }
+  
+  .androgyny {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/photography/andro/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/photography/andro/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/photography/andro/3.jpg') no-repeat center;
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/photography/andro/4.jpg') no-repeat center;
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/photography/andro/5.jpg') no-repeat center;
+      }
+    }
+    #img6 {
+      .pic {
+        background: url('../img/project/photography/andro/6.jpg') no-repeat center;
+      }
+    } 
+  }
+  
+  .future {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/imaging/3786/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/imaging/3786/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/imaging/3786/3.jpg') no-repeat center;
+      }
+    }
+
+  }
+  
+  .afgh {
+    #img1 {
+      .pic {
+        background: url('../img/project/afgh/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/afgh/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/afgh/3.jpg') no-repeat center;
+      }
+    }
+    #img4{
+      .pic {
+        background: url('../img/project/afgh/4.jpg') no-repeat center;
+      }
+    }
+    #img5{
+      .pic {
+        background: url('../img/project/afgh/5.jpg') no-repeat center;
+      }
+    }
+  }
+  
+  .idiom {
+  
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    
+    #img1 {
+      .pic {
+        background: url('../img/project/idiom/1.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/idiom/2.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/idiom/3.jpg') no-repeat center;
+      }
+    }
+  }
+
+
+  .invitrogen {
+    .img {
+      .pic {
+        width: 96% !important;
+        height: 550px !important;
+        padding: 10px 2%;
+      }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/invitrogen/homepage.jpg') no-repeat center;
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/invitrogen/search.jpg') no-repeat center;
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/invitrogen/pdp.jpg') no-repeat center;
+      }
+    }
+  }
+
+
+}
+
+@media only screen and  (max-width: 768px) {
+              
+ #sub_nav{
+  ul {
+    left: 55px !important;
+    }
+  }
+  
+  #wrapper.project_wrapper {
+    .img {
+      .pic {
+        height: 315px !important;
+      }
+    }
+  }
+  #wrapper.styling, #wrapper.grief, #wrapper.androgyny, #wrapper.future, #wrapper.idiom  {
+    .img .pic {
+      height: 410px !important;
+    }
+  }
+}
+
+
+
+@media only screen and  (max-width: 481px) {
+ #sub_nav{
+  ul {
+    left: 0px !important;
+    }
+  }
+  
+  #wrapper.project_wrapper {
+  
+  
+   #box3.nav {
+      #header {
+        height: 107px !important;
+        #nav {
+          height: 40px !important;
+        }
+      }
+    }
+    .img {
+      .pic {
+        height: 255px !important;
+        width: 96% !important;
+      }
+      p {
+        width: 96% !important;
+        margin-top: 10px !important;
+      }
+      
+    }
+  }
+
+}
+
+@media only screen and  (max-width: 481px) and (orientation:portrait) { 
+ #wrapper.project_wrapper {
+    .img {
+      .pic {
+        height: 168px !important;
+      }      
+    }
+  }
+}

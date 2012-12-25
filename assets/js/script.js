@@ -160,27 +160,28 @@ x$(document).on("DOMContentLoaded", function() {
 
   }
   
-  else {
+  // commenting out the splash page, decided not to have it anymore
+  // else {
   
     
-    // Dynamic XHR request for the splash introductry page.
-    var rc = readCookie("splash")
-    //console.log(rc)
-    if (rc === null) {
-    // Generating the link for the css file
-    var e = document.createElement('link'); 
-        e.rel = 'stylesheet'; 
-        e.href = 'assets/css/info_splash.css';
-        e.async = true;
-        //console.log(e);
-        document.head.appendChild(e);
+  //   // Dynamic XHR request for the splash introductry page.
+  //   var rc = readCookie("splash")
+  //   //console.log(rc)
+  //   if (rc === null) {
+  //   // Generating the link for the css file
+  //   var e = document.createElement('link'); 
+  //       e.rel = 'stylesheet'; 
+  //       e.href = 'assets/css/info_splash.css';
+  //       e.async = true;
+  //       //console.log(e);
+  //       document.head.appendChild(e);
         
-      x$('#splash_placeholder').xhr('inner', 'info_splash.html');
-    } else {
-      console.log('No splash page? freaking out!? come back a day later or type eraseCookie(\'splash\'); in the console  :) ');
-    }
+  //     x$('#splash_placeholder').xhr('inner', 'info_splash.html');
+  //   } else {
+  //     console.log('No splash page? freaking out!? come back a day later or type eraseCookie(\'splash\'); in the console  :) ');
+  //   }
    
-  }
+  // }
 
 });
 

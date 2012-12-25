@@ -1,0 +1,380 @@
+.cat_wrapper {
+  .row {
+    height: 150px;
+    display: block;
+    float: left;
+    margin: 10px 1%;
+    width: 96%;
+    padding: 5px 1%;
+    .title {
+      float: right;
+      width: 21%;
+      display: block;
+      margin: 0;
+      padding: 5px 1%;
+      text-align: left;
+      h4, h5 {
+        color: #444;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        text-shadow: 0 1px 1px #fff;
+      }
+      h4 {
+        font: 16px/20px 'TitilliumText22LBold', Verdana, sans-serif;
+      }
+      h5 {
+        font: 14px/20px 'TitilliumText22LRegular', Verdana, sans-serif;
+      }
+      p {
+        font: 14px/18px 'BigNoodle', Verdana, sans-serif;
+      }
+    }
+    .pic {
+      display: block;
+      float: left;
+      width: 74%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      @include border-radius(3px);
+      @include box-shadow(0 3px 1px rgba(0,0,0,0.8), 0 -1px 1px rgba(250,250,250,0.9));
+    }
+  }
+}
+
+
+.branding {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/agrion.jpg');
+    }
+  }
+  #row2 {
+    .pic {
+      background-image: url('../img/cat/pantone.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/zeal.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/island.jpg') ;
+    }
+  }
+}
+/*
+
+.mobile {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/asda.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/lifetech.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/ticketweb.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/invitrogen.jpg') ;
+    }
+  }
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/wasabi.jpg') ;
+    }
+  }
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/eats.jpg') ;
+    }
+  }
+}
+
+
+.web_design {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/virtus.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/wasab_desktop.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/half_full.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/wdnm.jpg') ;
+    }
+  }
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/hurt_locker.jpg') ;
+    }
+  }
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/zeal_website.jpg') ;
+    }
+  }
+  #row7 {
+    .pic {
+      background-image: url('../img/cat/how_nap.jpg') ;
+    }
+  }
+}
+
+*/
+.interactive {
+  .row {
+    .title {  
+      p {
+        letter-spacing: 1px;
+        
+      }
+    }
+  }
+
+  #row1 {
+    .pic {
+      
+      background-image: url('../img/cat/invitrogen.jpg');
+    }
+  }
+  
+  #row2 {
+    .pic {
+      background-image: url('../img/cat/virtus.jpg') ;
+    }
+  }
+  
+  #row3 {
+    .pic {
+
+      background-image: url('../img/cat/lifetech.jpg') ;
+    }
+  }
+
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/half_full.jpg') ;
+    }
+  }
+
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/ticketweb.jpg') ;
+    }
+  }
+  
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/zeal_website.jpg') ;
+    }
+  }
+  
+  #row7 {
+    .pic {
+      background-image: url('../img/cat/asda.jpg');
+    }
+  }
+
+  #row8 {
+    .pic {
+
+      background-image: url('../img/cat/wasab_desktop.jpg') ;
+    }
+  }
+  
+  #row9 {
+    .pic {
+      background-image: url('../img/cat/wasabi.jpg') ;
+    }
+  }
+  
+  #row10 {
+    .pic {
+      background-image: url('../img/cat/hurt_locker.jpg') ;
+    }
+  }
+  
+  #row11 {
+    .pic {
+      background-image: url('../img/cat/wdnm.jpg') ;
+    }
+  }
+  
+  #row12 {
+    .pic {
+      background-image: url('../img/cat/how_nap.jpg') ;
+    }
+  }
+  
+  #row13 {
+    .pic {
+      background-image: url('../img/cat/eats.jpg') ;
+    }
+  }
+  
+}
+
+.imaging {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/www.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/styling.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+  #row4 {
+    .pic {
+      background-image: url('../img/cat/grief.jpg') ;
+    }
+  }
+  #row5 {
+    .pic {
+      background-image: url('../img/cat/andro.jpg') ;
+    }
+  }
+  #row6 {
+    .pic {
+      background-image: url('../img/cat/future.jpg') ;
+    }
+  }
+  #row7 {
+    .pic {
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+
+}
+
+
+// .mograph, .interactive {
+//   .row {
+//     .title {  
+//       h5 {
+//         font: 14px/18px 'TitilliumText22LRegular', Verdana, sans-serif;
+//       }
+//       h4 {
+//         font: 16px/20px 'TitilliumText22LBold', Verdana, sans-serif;
+//       }  
+//     }
+//   }
+
+// }
+
+.fine_art {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/afgh.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/idiom.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+}
+
+.three_d {
+  #row1 {
+    .pic {
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+  #row2 {
+    .pic {
+
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+  #row3 {
+    .pic {
+      background-image: url('../img/cat/cs.jpg') ;
+    }
+  }
+}
+
+@media only screen and  (max-width: 768px) {
+  .cat_wrapper {
+    .row {
+      &.video {
+        height: 310px !important; 
+        iframe {
+          height: 310px !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .cat_wrapper {
+    .row {
+      height: inherit !important;
+      margin: 0 1% !important;
+      .title {
+        width: 98% !important;
+        float: none !important;
+        display: block !important;
+        margin-top: 10px;
+/*
+        h4 {
+          font-size: 22px;
+        }
+        h5 {
+          font-size: 14px;
+          opacity: 0.5;
+        }
+*/
+      }
+      .pic {
+        width: 100% !important;
+        float: none !important;
+        display: block;
+        min-height: 150px;
+      }
+      &.video {
+        height: 170px !important;
+        height: inherit !important;
+        iframe {
+          height: 170px !important;
+        }
+      }
+    }
+  }
+}

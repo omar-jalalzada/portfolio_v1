@@ -1,0 +1,13 @@
+/* TEAM */
+  Omar Jalalzada
+  Site: ojtwisted.com
+  Twitter: @ojtwisted
+  Location: San Francisco, CA
+
+/* THANKS */
+  Names (& URL): 
+
+/* SITE */
+  Standards: HTML, PHP, CSS3, JAVASCRIPT
+  Components: Uranium, H5BP
+  Software:
