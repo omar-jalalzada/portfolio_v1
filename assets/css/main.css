@@ -127,7 +127,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   margin: 1em 0;
   padding: 0;
 }
@@ -151,7 +151,7 @@ mark {
 /* line 79, ../sass/_base.scss */
 pre, code, kbd, samp {
   font-family: monospace, monospace;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em;
 }
 
@@ -504,7 +504,7 @@ table {
   /* Black prints faster: sanbeiji.com/archives/953 */
   /* line 309, ../sass/_base.scss */
   a, a:visited {
-    color: #444 !important;
+    color: #444444 !important;
     text-decoration: underline;
   }
 
@@ -526,7 +526,7 @@ table {
   /* Don't show links for images, or javascript/internal links */
   /* line 313, ../sass/_base.scss */
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
@@ -610,7 +610,6 @@ body.ipad {
   background-image: -webkit-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
   background-image: -moz-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
   background-image: -o-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
-  background-image: -ms-linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
   background-image: linear-gradient(top, #ffffff 10%, rgba(250, 250, 250, 0) 100%);
   width: 100%;
   height: 100%;
@@ -641,14 +640,13 @@ body.ipad {
   padding: 10px;
   height: 20px;
   margin: 10px;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 white;
   font: 22px/26px "BigNoodle", Arial, sans-serif;
   /*       line-height: 26px; */
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6c8c8), color-stop(100%, #a2a0a1));
   background-image: -webkit-linear-gradient(top, #c6c8c8 0%, #a2a0a1 100%);
   background-image: -moz-linear-gradient(top, #c6c8c8 0%, #a2a0a1 100%);
   background-image: -o-linear-gradient(top, #c6c8c8 0%, #a2a0a1 100%);
-  background-image: -ms-linear-gradient(top, #c6c8c8 0%, #a2a0a1 100%);
   background-image: linear-gradient(top, #c6c8c8 0%, #a2a0a1 100%);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -669,8 +667,8 @@ body.ipad {
   position: absolute;
   left: 0;
   top: 0;
-  border: 1px solid #888;
-  border-right: 2px solid #888;
+  border: 1px solid #888888;
+  border-right: 2px solid #888888;
   -webkit-border-radius: 6px 0 0 5px;
   -moz-border-radius: 6px 0 0 5px;
   -ms-border-radius: 6px 0 0 5px;
@@ -715,7 +713,7 @@ body.ipad {
   padding: 10px;
   color: white;
   font-size: 14px;
-  font-family: 'BigNoodle', Arial, sans-serif;
+  font-family: "BigNoodle", Arial, sans-serif;
   z-index: 100;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
@@ -763,8 +761,8 @@ body.ipad {
   font-weight: normal;
   font-size: 57px;
   margin: 0;
-  font-family: 'BigNoodle', Arial, sans-serif;
-  text-shadow: 0 1px 1px #fff;
+  font-family: "BigNoodle", Arial, sans-serif;
+  text-shadow: 0 1px 1px white;
 }
 /* line 148, ../sass/_style.scss */
 #container #wrapper .nav #header #nav {
@@ -787,7 +785,7 @@ body.ipad {
 /* line 162, ../sass/_style.scss */
 #container #wrapper .nav #header #nav ul li {
   color: #333;
-  font-family: 'BigNoodle', Arial, sans-serif;
+  font-family: "BigNoodle", Arial, sans-serif;
   display: inline-block;
   margin-right: 15px;
   font-size: 16px;
@@ -799,13 +797,13 @@ body.ipad {
 /* line 171, ../sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a {
   color: #333;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 1px white;
 }
 /* line 174, ../sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a:hover {
   color: #999;
   cursor: pointer;
-  text-shadow: 0 1px 5px #fff;
+  text-shadow: 0 1px 5px white;
 }
 /* line 179, ../sass/_style.scss */
 #container #wrapper .nav #header #nav ul li a.active {
@@ -842,7 +840,6 @@ body.ipad {
 #container #wrapper .box .pic {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   -webkit-border-radius: 3px;
@@ -861,7 +858,6 @@ body.ipad {
   z-index: 20;
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }
@@ -869,7 +865,6 @@ body.ipad {
 #container #wrapper .box .title h4, #container #wrapper .box .title h5 {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   opacity: 1;
@@ -878,9 +873,9 @@ body.ipad {
   font-size: 18px;
   text-indent: 20px;
   font-weight: normal;
-  font-family: 'BigNoodle', Arial, sans-serif;
+  font-family: "BigNoodle", Arial, sans-serif;
   letter-spacing: 1px;
-  text-shadow: 0 1px 5px #333;
+  text-shadow: 0 1px 5px #333333;
   line-height: 30px;
 }
 /* line 242, ../sass/_style.scss */
@@ -941,7 +936,6 @@ body.ipad {
   background-size: 90%;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
@@ -949,7 +943,6 @@ body.ipad {
 #container #wrapper #box1.logo.over {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   opacity: 0.8;
@@ -958,119 +951,119 @@ body.ipad {
 #container #wrapper #box3 {
   width: 600px;
 }
-/* line 306, ../sass/_style.scss */
+/* line 307, ../sass/_style.scss */
 #container #wrapper #box6 .pic {
   background: url("../img/virtus.jpg") no-repeat center;
 }
-/* line 311, ../sass/_style.scss */
+/* line 312, ../sass/_style.scss */
 #container #wrapper #box7 {
   width: 398px;
 }
-/* line 313, ../sass/_style.scss */
+/* line 315, ../sass/_style.scss */
 #container #wrapper #box7 .pic {
   background: url("../img/agrion.jpg") no-repeat center;
 }
-/* line 317, ../sass/_style.scss */
+/* line 319, ../sass/_style.scss */
 #container #wrapper #box8 {
   width: 398px;
   height: 398px;
 }
-/* line 320, ../sass/_style.scss */
+/* line 324, ../sass/_style.scss */
 #container #wrapper #box8 .pic {
   background: url("../img/pantone.jpg") no-repeat center;
 }
-/* line 325, ../sass/_style.scss */
+/* line 329, ../sass/_style.scss */
 #container #wrapper #box9 {
   margin-top: -200px;
   width: 398px;
 }
-/* line 328, ../sass/_style.scss */
+/* line 333, ../sass/_style.scss */
 #container #wrapper #box9 .pic {
   background: url("../img/island.jpg") no-repeat center;
 }
-/* line 334, ../sass/_style.scss */
+/* line 339, ../sass/_style.scss */
 #container #wrapper #box10 .pic {
   background: url("../img/invitrogen.jpg") no-repeat center;
 }
-/* line 339, ../sass/_style.scss */
+/* line 344, ../sass/_style.scss */
 #container #wrapper #box12 {
   margin-top: -200px;
   height: 398px;
 }
-/* line 342, ../sass/_style.scss */
+/* line 348, ../sass/_style.scss */
 #container #wrapper #box12 .pic {
   background: url("../img/styling.jpg") no-repeat center;
 }
-/* line 347, ../sass/_style.scss */
+/* line 353, ../sass/_style.scss */
 #container #wrapper #box11 {
   height: 398px;
 }
-/* line 349, ../sass/_style.scss */
+/* line 356, ../sass/_style.scss */
 #container #wrapper #box11 .pic {
   background: url("../img/dossier.jpg") no-repeat center;
 }
-/* line 354, ../sass/_style.scss */
+/* line 361, ../sass/_style.scss */
 #container #wrapper #box13 {
   height: 398px;
 }
-/* line 356, ../sass/_style.scss */
+/* line 364, ../sass/_style.scss */
 #container #wrapper #box13 .pic {
   background: url("../img/zeal.jpg") no-repeat center;
 }
-/* line 361, ../sass/_style.scss */
+/* line 369, ../sass/_style.scss */
 #container #wrapper #box14 .pic {
   background: url("../img/wasabi.jpg") no-repeat center;
 }
-/* line 366, ../sass/_style.scss */
+/* line 374, ../sass/_style.scss */
 #container #wrapper #box15 .pic {
   background: url("../img/afg.jpg") no-repeat center;
 }
-/* line 371, ../sass/_style.scss */
+/* line 379, ../sass/_style.scss */
 #container #wrapper #box16 {
   margin-top: -200px;
 }
-/* line 373, ../sass/_style.scss */
+/* line 381, ../sass/_style.scss */
 #container #wrapper #box16 .pic {
   background: url("../img/andro.jpg") no-repeat center;
 }
-/* line 377, ../sass/_style.scss */
+/* line 385, ../sass/_style.scss */
 #container #wrapper #box18 {
   margin-top: -200px;
 }
-/* line 379, ../sass/_style.scss */
+/* line 387, ../sass/_style.scss */
 #container #wrapper #box18 .pic {
   background: url("../img/hurtlocker.jpg") no-repeat center;
 }
-/* line 384, ../sass/_style.scss */
+/* line 392, ../sass/_style.scss */
 #container #wrapper #box17 {
   width: 398px;
 }
-/* line 386, ../sass/_style.scss */
+/* line 395, ../sass/_style.scss */
 #container #wrapper #box17 .pic {
   background: url("../img/applecare.jpg") no-repeat center;
 }
-/* line 391, ../sass/_style.scss */
+/* line 400, ../sass/_style.scss */
 #container #wrapper #box19 .pic {
   background: url("../img/angels.jpg") no-repeat center;
 }
-/* line 395, ../sass/_style.scss */
+/* line 404, ../sass/_style.scss */
 #container #wrapper #box20 {
   width: 398px;
 }
-/* line 397, ../sass/_style.scss */
+/* line 407, ../sass/_style.scss */
 #container #wrapper #box20 .pic {
   background: url("../img/strawberry.jpg") no-repeat center;
 }
-/* line 401, ../sass/_style.scss */
+/* line 411, ../sass/_style.scss */
 #container #wrapper #box21 {
   display: none;
 }
-/* line 402, ../sass/_style.scss */
+/* line 412, ../sass/_style.scss */
 #container #wrapper #box21 .pic {
   background: url("../img/ali.jpg") no-repeat center;
 }
 
-/* line 411, ../sass/_style.scss */
+/* line 421, ../sass/_style.scss */
 #about_me_inner {
   padding: 10px;
   color: #fff;
@@ -1094,21 +1087,21 @@ body.ipad {
   column-gap: 20px;
 }
 
-/* line 432, ../sass/_style.scss */
+/* line 442, ../sass/_style.scss */
 #footer {
   margin: 10px 0 0 0;
   padding: 0 5px;
   text-align: center;
   overflow: hidden;
 }
-/* line 437, ../sass/_style.scss */
+/* line 447, ../sass/_style.scss */
 #footer .copyright {
   color: #aaa;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 1px white;
   margin: 5px 0;
   float: left;
 }
-/* line 443, ../sass/_style.scss */
+/* line 453, ../sass/_style.scss */
 #footer a {
   float: right;
   margin-top: 2px;
@@ -1120,7 +1113,7 @@ body.ipad {
 }
 
 @media only screen and (max-width: 481px) {
-  /* line 457, ../sass/_style.scss */
+  /* line 467, ../sass/_style.scss */
   body #container {
     width: 100%;
     min-height: 1000px;
@@ -1128,7 +1121,7 @@ body.ipad {
     position: relative;
     overflow: hidden;
   }
-  /* line 464, ../sass/_style.scss */
+  /* line 474, ../sass/_style.scss */
   body #container #contact_me {
     top: 70px;
     right: -10px !important;
@@ -1141,41 +1134,41 @@ body.ipad {
     line-height: 15px;
     opacity: 0.6;
   }
-  /* line 473, ../sass/_style.scss */
+  /* line 483, ../sass/_style.scss */
   body #container #wrapper {
     overflow: hidden;
     margin: 0 auto !important;
   }
-  /* line 477, ../sass/_style.scss */
+  /* line 487, ../sass/_style.scss */
   body #container #wrapper .nav #header {
     top: 10px !important;
     bottom: none !important;
   }
-  /* line 478, ../sass/_style.scss */
+  /* line 488, ../sass/_style.scss */
   body #container #wrapper .nav #header #nav ul li {
     margin-right: 6px;
   }
-  /* line 483, ../sass/_style.scss */
+  /* line 493, ../sass/_style.scss */
   body #container #wrapper .nav #header #main_title {
     color: #333;
     text-align: right;
   }
-  /* line 486, ../sass/_style.scss */
+  /* line 496, ../sass/_style.scss */
   body #container #wrapper .nav #header #main_title h2 {
     font-weight: normal;
     font-size: 32px;
     margin: 0;
-    font-family: 'BigNoodle', Arial, sans-serif;
-    text-shadow: 0 1px 1px #fff;
+    font-family: "BigNoodle", Arial, sans-serif;
+    text-shadow: 0 1px 1px white;
   }
-  /* line 496, ../sass/_style.scss */
+  /* line 506, ../sass/_style.scss */
   body #container #wrapper .box {
     width: 149px !important;
     height: 149px !important;
     margin: 5px;
     float: left;
   }
-  /* line 502, ../sass/_style.scss */
+  /* line 512, ../sass/_style.scss */
   body #container #wrapper .box.logo {
     width: 100% !important;
     margin: 0 auto !important;
@@ -1186,45 +1179,45 @@ body.ipad {
     background-size: inherit !important;
     background-position: center 100% !important;
   }
-  /* line 509, ../sass/_style.scss */
+  /* line 519, ../sass/_style.scss */
   body #container #wrapper #box3 {
     height: 115px !important;
     width: 96% !important;
     margin: 0 2% !important;
   }
-  /* line 514, ../sass/_style.scss */
+  /* line 524, ../sass/_style.scss */
   body #container #wrapper #box3 #header #main_title {
     text-align: center;
     height: 30px;
     padding: 10px 0;
   }
-  /* line 521, ../sass/_style.scss */
+  /* line 531, ../sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul {
     height: 40px;
   }
-  /* line 523, ../sass/_style.scss */
+  /* line 533, ../sass/_style.scss */
   body #container #wrapper #box3 #header #nav ul li {
     float: none;
     display: inline-block;
   }
-  /* line 531, ../sass/_style.scss */
+  /* line 541, ../sass/_style.scss */
   body #container #wrapper #box2 {
     display: none;
   }
-  /* line 534, ../sass/_style.scss */
+  /* line 544, ../sass/_style.scss */
   body #container #wrapper #box21 {
     display: block !important;
   }
 }
 /*  and   (min-device-width: 768px) and (max-device-width: 1024px) and asdfasdfasd */
-@media only screen and  (max-width: 768px) {
-  /* line 545, ../sass/_style.scss */
+@media only screen and (max-width: 768px) {
+  /* line 555, ../sass/_style.scss */
   #container {
     width: 758px;
     margin: 0px auto;
     min-height: 960px;
   }
-  /* line 549, ../sass/_style.scss */
+  /* line 559, ../sass/_style.scss */
   #container #wrapper {
     overflow: hidden;
     /*
@@ -1239,34 +1232,34 @@ body.ipad {
         }
   */
   }
-  /* line 552, ../sass/_style.scss */
+  /* line 562, ../sass/_style.scss */
   #container #wrapper .nav #header {
     height: 90px;
   }
-  /* line 554, ../sass/_style.scss */
+  /* line 564, ../sass/_style.scss */
   #container #wrapper .nav #header #main_title, #container #wrapper .nav #header #nav {
     height: 45px;
   }
-  /* line 556, ../sass/_style.scss */
+  /* line 566, ../sass/_style.scss */
   #container #wrapper .nav #header #main_title h2, #container #wrapper .nav #header #nav h2 {
     font-size: 37px;
   }
-  /* line 563, ../sass/_style.scss */
+  /* line 573, ../sass/_style.scss */
   #container #wrapper .box {
     width: 179px !important;
     height: 179px !important;
     margin: 5px !important;
     float: left;
   }
-  /* line 570, ../sass/_style.scss */
+  /* line 580, ../sass/_style.scss */
   #container #wrapper #box2 {
     display: none;
   }
-  /* line 573, ../sass/_style.scss */
+  /* line 583, ../sass/_style.scss */
   #container #wrapper #box3 {
-    width: 558px !important;
+    width: 370px !important;
   }
-  /* line 577, ../sass/_style.scss */
+  /* line 588, ../sass/_style.scss */
   #container #wrapper #box21 {
     display: block !important;
   }
@@ -1295,7 +1288,7 @@ body.ipad {
   font-weight: normal;
   margin: 0;
   padding: 0;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 1px white;
 }
 /* line 23, ../sass/_cat.scss */
 .cat_wrapper .row .title h4 {
@@ -1533,7 +1526,7 @@ body.ipad {
   background-image: url("../img/cat/cs.jpg");
 }
 
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* line 335, ../sass/_cat.scss */
   .cat_wrapper .row.video {
     height: 310px !important;
@@ -1609,7 +1602,7 @@ body.ipad {
 }
 /* line 24, ../sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li {
-  font-family: 'BigNoodle', Arial, sans-serif;
+  font-family: "BigNoodle", Arial, sans-serif;
   display: inline-block;
   margin-right: 15px;
   font-size: 16px;
@@ -1621,13 +1614,13 @@ body.ipad {
 /* line 32, ../sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a {
   color: #D81B5F;
-  text-shadow: 0 1px 1px #fff;
+  text-shadow: 0 1px 1px white;
 }
 /* line 35, ../sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a:hover {
   color: #999;
   cursor: pointer;
-  text-shadow: 0 1px 5px #fff;
+  text-shadow: 0 1px 5px white;
 }
 /* line 40, ../sass/_project.scss */
 #container #wrapper.project_wrapper .nav #header #sub_nav ul li a.active {
@@ -1640,7 +1633,7 @@ body.ipad {
   margin: 10px 1%;
   width: 98%;
   color: #333;
-  text-shadow: 0 1px 1px #eee;
+  text-shadow: 0 1px 1px #eeeeee;
 }
 /* line 57, ../sass/_project.scss */
 #container #wrapper.project_wrapper .info p {
@@ -1692,7 +1685,7 @@ body.ipad {
 }
 /* line 91, ../sass/_project.scss */
 #container #wrapper.project_wrapper .img p {
-  text-shadow: 0 1px 1px #ddd;
+  text-shadow: 0 1px 1px #dddddd;
   float: right;
   width: 17%;
   padding: 2%;
@@ -1861,230 +1854,282 @@ body.ipad {
 #container .apple #img3 .pic {
   background: url("../img/project/imaging/3.jpg") no-repeat center;
 }
-/* line 323, ../sass/_project.scss */
+/* line 322, ../sass/_project.scss */
+#container .eats .img .pic {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto !important;
+}
+/* line 334, ../sass/_project.scss */
+#container .eats #img1 .pic {
+  background: url("../img/project/eats/1.jpg");
+}
+/* line 339, ../sass/_project.scss */
+#container .eats #img2 .pic {
+  background: url("../img/project/eats/2.jpg");
+}
+/* line 344, ../sass/_project.scss */
+#container .eats #img3 .pic {
+  background: url("../img/project/eats/3.jpg");
+}
+/* line 349, ../sass/_project.scss */
+#container .eats #img4 .pic {
+  background: url("../img/project/eats/4.jpg");
+}
+/* line 354, ../sass/_project.scss */
+#container .eats #img5 .pic {
+  background: url("../img/project/eats/5.jpg");
+}
+/* line 359, ../sass/_project.scss */
+#container .eats #img6 .pic {
+  background: url("../img/project/eats/6.jpg");
+}
+/* line 364, ../sass/_project.scss */
+#container .eats #img7 .pic {
+  background: url("../img/project/eats/7.jpg");
+}
+/* line 369, ../sass/_project.scss */
+#container .eats #img8 .pic {
+  background: url("../img/project/eats/8.jpg");
+}
+/* line 374, ../sass/_project.scss */
+#container .eats #img9 .pic {
+  background: url("../img/project/eats/9.jpg");
+}
+/* line 379, ../sass/_project.scss */
+#container .eats #img10 .pic {
+  background: url("../img/project/eats/10.jpg");
+}
+/* line 388, ../sass/_project.scss */
 #container .styling .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 332, ../sass/_project.scss */
+/* line 397, ../sass/_project.scss */
 #container .styling #img1 .pic {
   background: url("../img/project/photography/dup/1.jpg") no-repeat center;
 }
-/* line 337, ../sass/_project.scss */
+/* line 402, ../sass/_project.scss */
 #container .styling #img2 .pic {
   background: url("../img/project/photography/dup/2.jpg") no-repeat center;
 }
-/* line 342, ../sass/_project.scss */
+/* line 407, ../sass/_project.scss */
 #container .styling #img3 .pic {
   background: url("../img/project/photography/dup/3.jpg") no-repeat center;
 }
-/* line 347, ../sass/_project.scss */
+/* line 412, ../sass/_project.scss */
 #container .styling #img4 .pic {
   background: url("../img/project/photography/dup/4.jpg") no-repeat center;
 }
-/* line 352, ../sass/_project.scss */
+/* line 417, ../sass/_project.scss */
 #container .styling #img5 .pic {
   background: url("../img/project/photography/dup/5.jpg") no-repeat center;
 }
-/* line 357, ../sass/_project.scss */
+/* line 422, ../sass/_project.scss */
 #container .styling #img6 .pic {
   background: url("../img/project/photography/dup/6.jpg") no-repeat center;
 }
-/* line 362, ../sass/_project.scss */
+/* line 427, ../sass/_project.scss */
 #container .styling #img7 .pic {
   background: url("../img/project/photography/dup/7.jpg") no-repeat center;
 }
-/* line 367, ../sass/_project.scss */
+/* line 432, ../sass/_project.scss */
 #container .styling #img8 .pic {
   background: url("../img/project/photography/dup/8.jpg") no-repeat center;
 }
-/* line 372, ../sass/_project.scss */
+/* line 437, ../sass/_project.scss */
 #container .styling #img9 .pic {
   background: url("../img/project/photography/dup/9.jpg") no-repeat center;
 }
-/* line 377, ../sass/_project.scss */
+/* line 442, ../sass/_project.scss */
 #container .styling #img10 .pic {
   background: url("../img/project/photography/dup/10.jpg") no-repeat center;
 }
-/* line 382, ../sass/_project.scss */
+/* line 447, ../sass/_project.scss */
 #container .styling #img11 .pic {
   background: url("../img/project/photography/dup/11.jpg") no-repeat center;
 }
-/* line 387, ../sass/_project.scss */
+/* line 452, ../sass/_project.scss */
 #container .styling #img12 .pic {
   background: url("../img/project/photography/dup/12.jpg") no-repeat center;
 }
-/* line 395, ../sass/_project.scss */
+/* line 460, ../sass/_project.scss */
 #container .grief .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 402, ../sass/_project.scss */
+/* line 467, ../sass/_project.scss */
 #container .grief #img1 .pic {
   background: url("../img/project/photography/gr/1.jpg") no-repeat center;
 }
-/* line 407, ../sass/_project.scss */
+/* line 472, ../sass/_project.scss */
 #container .grief #img2 .pic {
   background: url("../img/project/photography/gr/2.jpg") no-repeat center;
 }
-/* line 412, ../sass/_project.scss */
+/* line 477, ../sass/_project.scss */
 #container .grief #img3 .pic {
   background: url("../img/project/photography/gr/3.jpg") no-repeat center;
 }
-/* line 417, ../sass/_project.scss */
+/* line 482, ../sass/_project.scss */
 #container .grief #img4 .pic {
   background: url("../img/project/photography/gr/4.jpg") no-repeat center;
 }
-/* line 426, ../sass/_project.scss */
+/* line 491, ../sass/_project.scss */
 #container .androgyny .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 433, ../sass/_project.scss */
+/* line 498, ../sass/_project.scss */
 #container .androgyny #img1 .pic {
   background: url("../img/project/photography/andro/1.jpg") no-repeat center;
 }
-/* line 438, ../sass/_project.scss */
+/* line 503, ../sass/_project.scss */
 #container .androgyny #img2 .pic {
   background: url("../img/project/photography/andro/2.jpg") no-repeat center;
 }
-/* line 443, ../sass/_project.scss */
+/* line 508, ../sass/_project.scss */
 #container .androgyny #img3 .pic {
   background: url("../img/project/photography/andro/3.jpg") no-repeat center;
 }
-/* line 448, ../sass/_project.scss */
+/* line 513, ../sass/_project.scss */
 #container .androgyny #img4 .pic {
   background: url("../img/project/photography/andro/4.jpg") no-repeat center;
 }
-/* line 453, ../sass/_project.scss */
+/* line 518, ../sass/_project.scss */
 #container .androgyny #img5 .pic {
   background: url("../img/project/photography/andro/5.jpg") no-repeat center;
 }
-/* line 458, ../sass/_project.scss */
+/* line 523, ../sass/_project.scss */
 #container .androgyny #img6 .pic {
   background: url("../img/project/photography/andro/6.jpg") no-repeat center;
 }
-/* line 466, ../sass/_project.scss */
+/* line 531, ../sass/_project.scss */
 #container .future .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 473, ../sass/_project.scss */
+/* line 538, ../sass/_project.scss */
 #container .future #img1 .pic {
   background: url("../img/project/imaging/3786/1.jpg") no-repeat center;
 }
-/* line 478, ../sass/_project.scss */
+/* line 543, ../sass/_project.scss */
 #container .future #img2 .pic {
   background: url("../img/project/imaging/3786/2.jpg") no-repeat center;
 }
-/* line 483, ../sass/_project.scss */
+/* line 548, ../sass/_project.scss */
 #container .future #img3 .pic {
   background: url("../img/project/imaging/3786/3.jpg") no-repeat center;
 }
-/* line 492, ../sass/_project.scss */
+/* line 557, ../sass/_project.scss */
 #container .afgh #img1 .pic {
   background: url("../img/project/afgh/1.jpg") no-repeat center;
 }
-/* line 497, ../sass/_project.scss */
+/* line 562, ../sass/_project.scss */
 #container .afgh #img2 .pic {
   background: url("../img/project/afgh/2.jpg") no-repeat center;
 }
-/* line 502, ../sass/_project.scss */
+/* line 567, ../sass/_project.scss */
 #container .afgh #img3 .pic {
   background: url("../img/project/afgh/3.jpg") no-repeat center;
 }
-/* line 507, ../sass/_project.scss */
+/* line 572, ../sass/_project.scss */
 #container .afgh #img4 .pic {
   background: url("../img/project/afgh/4.jpg") no-repeat center;
 }
-/* line 512, ../sass/_project.scss */
+/* line 577, ../sass/_project.scss */
 #container .afgh #img5 .pic {
   background: url("../img/project/afgh/5.jpg") no-repeat center;
 }
-/* line 521, ../sass/_project.scss */
+/* line 586, ../sass/_project.scss */
 #container .idiom .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 529, ../sass/_project.scss */
+/* line 594, ../sass/_project.scss */
 #container .idiom #img1 .pic {
   background: url("../img/project/idiom/1.jpg") no-repeat center;
 }
-/* line 534, ../sass/_project.scss */
+/* line 599, ../sass/_project.scss */
 #container .idiom #img2 .pic {
   background: url("../img/project/idiom/2.jpg") no-repeat center;
 }
-/* line 539, ../sass/_project.scss */
+/* line 604, ../sass/_project.scss */
 #container .idiom #img3 .pic {
   background: url("../img/project/idiom/3.jpg") no-repeat center;
 }
-/* line 548, ../sass/_project.scss */
+/* line 613, ../sass/_project.scss */
 #container .invitrogen .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 555, ../sass/_project.scss */
+/* line 620, ../sass/_project.scss */
 #container .invitrogen #img1 .pic {
   background: url("../img/project/invitrogen/homepage.jpg") no-repeat center;
 }
-/* line 560, ../sass/_project.scss */
+/* line 625, ../sass/_project.scss */
 #container .invitrogen #img2 .pic {
   background: url("../img/project/invitrogen/search.jpg") no-repeat center;
 }
-/* line 565, ../sass/_project.scss */
+/* line 630, ../sass/_project.scss */
 #container .invitrogen #img3 .pic {
   background: url("../img/project/invitrogen/pdp.jpg") no-repeat center;
 }
 
-@media only screen and  (max-width: 768px) {
-  /* line 577, ../sass/_project.scss */
+@media only screen and (max-width: 768px) {
+  /* line 642, ../sass/_project.scss */
   #sub_nav ul {
     left: 55px !important;
   }
 
-  /* line 584, ../sass/_project.scss */
+  /* line 649, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 315px !important;
   }
 
-  /* line 590, ../sass/_project.scss */
+  /* line 656, ../sass/_project.scss */
+  #wrapper.eats .img .pic {
+    background-size: 100% !important;
+    height: 313px !important;
+  }
+
+  /* line 663, ../sass/_project.scss */
   #wrapper.styling .img .pic, #wrapper.grief .img .pic, #wrapper.androgyny .img .pic, #wrapper.future .img .pic, #wrapper.idiom .img .pic {
     height: 410px !important;
   }
 }
-@media only screen and  (max-width: 481px) {
-  /* line 600, ../sass/_project.scss */
+@media only screen and (max-width: 481px) {
+  /* line 673, ../sass/_project.scss */
   #sub_nav ul {
     left: 0px !important;
   }
 
-  /* line 609, ../sass/_project.scss */
+  /* line 682, ../sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header {
     height: 107px !important;
   }
-  /* line 611, ../sass/_project.scss */
+  /* line 684, ../sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header #nav {
     height: 40px !important;
   }
-  /* line 617, ../sass/_project.scss */
+  /* line 690, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 255px !important;
     width: 96% !important;
   }
-  /* line 621, ../sass/_project.scss */
+  /* line 694, ../sass/_project.scss */
   #wrapper.project_wrapper .img p {
     width: 96% !important;
     margin-top: 10px !important;
   }
 }
-@media only screen and  (max-width: 481px) and (orientation:portrait) {
-  /* line 634, ../sass/_project.scss */
+@media only screen and (max-width: 481px) and (orientation: portrait) {
+  /* line 716, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 168px !important;
   }
