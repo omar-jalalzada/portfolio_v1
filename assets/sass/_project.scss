@@ -300,7 +300,7 @@
   }
   
   .apple {
-   #img1 {
+    #img1 {
       .pic {
         background: url('../img/project/imaging/1.jpg') no-repeat center;
       }
@@ -313,6 +313,71 @@
     #img3{
       .pic {
         background: url('../img/project/imaging/3.jpg') no-repeat center;
+      }
+    }
+  }
+    
+  .eats {
+    .img {
+      .pic {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto !important;
+        // height: 859px !important;
+        // width: 63% !important;
+      }
+      // p {
+      //   width: 28% !important;
+      // }
+    }
+    #img1 {
+      .pic {
+        background: url('../img/project/eats/1.jpg');
+      }
+    }
+    #img2 {
+      .pic {
+        background: url('../img/project/eats/2.jpg');
+      }
+    }
+    #img3{
+      .pic {
+        background: url('../img/project/eats/3.jpg');
+      }
+    }
+    #img4 {
+      .pic {
+        background: url('../img/project/eats/4.jpg');
+      }
+    }
+    #img5 {
+      .pic {
+        background: url('../img/project/eats/5.jpg');
+      }
+    }
+    #img6{
+      .pic {
+        background: url('../img/project/eats/6.jpg');
+      }
+    }
+    #img7{
+      .pic {
+        background: url('../img/project/eats/7.jpg');
+      }
+    }
+    #img8{
+      .pic {
+        background: url('../img/project/eats/8.jpg');
+      }
+    }
+    #img9{
+      .pic {
+        background: url('../img/project/eats/9.jpg');
+      }
+    }
+    #img10{
+      .pic {
+        background: url('../img/project/eats/10.jpg');
       }
     }
   }
@@ -586,6 +651,14 @@
       }
     }
   }
+  #wrapper.eats {
+    .img {
+      .pic {
+        background-size: 100% !important;
+        height: 313px !important;
+      }
+    }
+  }
   #wrapper.styling, #wrapper.grief, #wrapper.androgyny, #wrapper.future, #wrapper.idiom  {
     .img .pic {
       height: 410px !important;
@@ -626,6 +699,15 @@
     }
   }
 
+  // #wrapper.eats {
+  //   .img {
+  //     .pic {
+  //       border: 1px solid green;
+  //       // background-size: 100% !important;
+  //       height: 210px !important;
+  //     }
+  //   }
+  // }
 }
 
 @media only screen and  (max-width: 481px) and (orientation:portrait) { 
@@ -633,7 +715,18 @@
     .img {
       .pic {
         height: 168px !important;
+        // width: 100% !important;
+
       }      
     }
   }
+  // #wrapper.eats {
+  //   .img {
+  //     .pic {
+  //       border: 1px solid blue;
+  //       // background-size: 100% !important;
+  //       // height: 394px !important;
+  //     }
+  //   }
+  // }
 }
