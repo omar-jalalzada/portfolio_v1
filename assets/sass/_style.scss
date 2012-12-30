@@ -299,7 +299,8 @@ body {
 
     
     #box3 {
-      @include tripple_width();
+      // @include tripple_width();
+      width: $t_width;
     }
     
     #box6 {
@@ -309,14 +310,17 @@ body {
     }
     
     #box7 {
-      @include double_width();
+      // @include double_width();
+      width: $d_width;
       .pic {
         background: url('../img/agrion.jpg') no-repeat center;
       }
     }
     #box8 {
-      @include double_width();
-      @include double_height();
+      // @include double_width();
+      width: $d_width;
+      // @include double_height();
+      height: $d_height;
       .pic {
         background: url('../img/pantone.jpg') no-repeat center;
       }
@@ -324,7 +328,8 @@ body {
     
     #box9 {
       margin-top: $t_neg_margin;
-      @include double_width();
+      // @include double_width();
+      width: $d_width;
       .pic {
         background: url('../img/island.jpg') no-repeat center;
       }
@@ -338,21 +343,24 @@ body {
     
     #box12 {
       margin-top: $t_neg_margin;
-      @include double_height();
+      // @include double_height();
+      height: $d_height;
       .pic {
         background: url('../img/styling.jpg') no-repeat center;
       }
     }
     
     #box11 {
-      @include double_height();
+      // @include double_height();
+      height: $d_height;
       .pic {
         background: url('../img/dossier.jpg') no-repeat center;
       }
     }
     
     #box13 {
-      @include double_height();
+      // @include double_height();
+      height: $d_height;
       .pic {
         background: url('../img/zeal.jpg') no-repeat center;
       }
@@ -382,7 +390,8 @@ body {
     }
     
     #box17 {
-      @include double_width();
+      // @include double_width();
+      width: $d_width;
       .pic {
         background: url('../img/applecare.jpg') no-repeat center;
       }
@@ -393,7 +402,8 @@ body {
       }
     }
     #box20 {
-      @include double_width();
+      // @include double_width();
+      width: $d_width;
       .pic {
         background: url('../img/strawberry.jpg') no-repeat center;
       }
@@ -571,7 +581,8 @@ body {
         display: none;
       }
       #box3 {
-        @include ipad_triple_width();
+        // @include ipad_triple_width();
+        width: $ipad_d_width;
       }
       
       #box21 {
