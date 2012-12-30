@@ -53,7 +53,7 @@
         <li style="display: none;"class='tw'><a class="row" href="project.php?cat=mobile&proj=tw">TicketWeb</a></li>
         <li class='invitrogen'><a class="row" href="project.php?cat=mobile&proj=invitrogen">Invitrogen</a></li>
         <li style="display: none;"class='wasabi'><a class="row" href="project.php?cat=mobile&proj=wasabi">Wasabi Grill</a></li>
-        <li style="display: none;"class='eats'><a class="row" href="project.php?cat=mobile&proj=eats">Eats</a></li>
+        <li class='eats'><a class="row" href="project.php?cat=mobile&proj=eats">Eats</a></li>
       </ul>
       
       <ul  class="<?php if ( $wrapper_class == 'web_design' ) { echo "show";} ?>" >
@@ -84,6 +84,11 @@
         <li class='dream'><a class="row" href="project.php?cat=mg&proj=dream">Dream</a></li>
         <li class='sscore'><a class="row" href="project.php?cat=mg&proj=ss">S-Score</a></li>
         <li class='csound'><a class="row" href="project.php?cat=mg&proj=comp">Custom</a></li>
+      </ul>
+
+      <ul  class="<?php if ( $wrapper_class == 'fine_art' ) { echo "show";} ?>" >
+        <li class='afgh'><a class="row" href="project.php?cat=fa&proj=afgh">Afghanistan</a></li>
+        <li class='idiom'><a href="project.php?cat=fa&proj=idiom" >Idiomatic Expressions</a></li>
       </ul>
       
     </div>
