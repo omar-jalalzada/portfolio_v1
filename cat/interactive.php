@@ -1,3 +1,15 @@
+
+
+<a class="row" href="project.php?cat=mobile&proj=eats" id="row13">
+  <div class="lateload" ></div>
+  <div class="title">
+    <h4>Eats</h4>
+    <h5>Eat your heartout</h5>
+    <p>Pen & Paper + Illustrator + Photoshop</p>
+  </div>
+</a> <!-- Closing #row6-->
+
+
 <!-- <a class="row" href="project.php?cat=mobile&proj=asda" id="row1"> -->
 <a class="row" href="project.php?cat=mobile&proj=invitrogen" id="row1">
 
@@ -5,7 +17,7 @@
   <div class="title">
     <h4>Invitrogen</h4>
     <h5>A LifeTechnologies subsidary that was merged to its mother company after development</h5>
-    <p>HTML + CSS + XUI + Uranium + Tritium</p>
+    <p>HTML + CSS + XUI(Javascript) + Uranium + Tritium</p>
   </div>
 
 </a> <!-- Closing #row4 -->
@@ -21,24 +33,13 @@
 </a> <!-- Closing #row4 -->
 
 
-<!-- <a class="row" href="project.php?cat=mobile&proj=life" id="row2"> -->
-<a class="row" href="http://m.lifetechnologies.com" target="_blank" id="row3">
-  <div class="lateload" ></div>
-  <div class="title">
-    <h4>LifeTechnologies</h4>
-    <h5>A global biotechnology company</h5>
-    <p>HTML + CSS + XUI + Uranium + Tritium</p>
-  </div>
-</a> <!-- Closing #row1 -->
-
-
 <!-- <a class="row" href="project.php?cat=web&proj=hf" id="row3"> -->
-<a class="row" href="http://blog.ojtwisted.com" target="_blank" id="row4">
+<a class="row" href="http://wpblog.ojtwisted.com" target="_blank" id="row4">
   <div class="lateload" ></div>
   <div class="title">
     <h4>Half Full</h4>
-    <h5>An optimistic blog</h5>
-    <p>Wordpress + PHP + HTML + CSS + JQuery + Javascirpt</p>
+    <h5>A responsive wordpress blog</h5>
+    <p>Wordpress + PHP + HTML + CSS + JQuery</p>
   </div>
 </a> <!-- Closing #row2 -->
 
@@ -71,7 +72,7 @@
   <div class="title">
     <h4>ASDA</h4>
     <h5>A British supermarket chain and one of the Walmart's subsidiary</h5>
-    <p>HTML + CSS + XUI + Uranium + Tritium</p>
+    <p>HTML + CSS + XUI(Javascript) + Uranium + Tritium</p>
   </div>
 </a> <!-- Closing #row4-->
 
@@ -93,7 +94,7 @@
 
     <h4>Wasabi Grill - Mobile</h4>
     <h5>A Japanese cuisine restaurant</h5>
-    <p>JQTOUCH + HTML + CSS + Javascript</p>
+    <p>JQTOUCH + HTML + CSS</p>
   </div>
 </a> <!-- Closing #row5-->
 
@@ -127,19 +128,21 @@
   <div class="lateload" ></div>
   <div class="title">
     <h4>How to Nap!</h4>
-    <h5>A fun little project with AC3 and digital illustrations</h5>
+    <h5>A fun project with AC3 and digital illustrations</h5>
     <p>AC3 + HTML</p>
   </div>
 </a> <!-- Closing #row7-->
 
-
-<a class="row" href="project.php?cat=mobile&proj=eats" id="row13">
+<!-- <a class="row" href="project.php?cat=mobile&proj=life" id="row2"> -->
+<a class="row" href="http://m.lifetechnologies.com" target="_blank" id="row3">
   <div class="lateload" ></div>
   <div class="title">
-    <h4>Eats</h4>
-    <h5>ComingSoon!</h5>
+    <h4>LifeTechnologies</h4>
+    <h5>A global biotechnology company</h5>
+    <p>HTML + CSS + XUI(Javascript) + Uranium + Tritium</p>
   </div>
-</a> <!-- Closing #row6-->
+</a>
+
 
 
 

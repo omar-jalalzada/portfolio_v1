@@ -2,7 +2,7 @@
   <p>
     <span class="info_title">Half Full</span>
     <span class="info_content">
-      A blog
+      A responsive wordpress blog
     </span>
   </p>
 </div>

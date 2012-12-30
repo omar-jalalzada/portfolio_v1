@@ -13,8 +13,8 @@
 <div class="img" id="img1">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Product Shot</span>
-    <span class="content">Rendered in Cinema 4D, texture mapping and other materials were designed in Illustrator</span>
+    <span class="header">Tell-a-Tone</span>
+    <span class="content">Because your world is full of colors</span>
   </p>
 </div>
 
