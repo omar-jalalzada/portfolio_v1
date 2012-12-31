@@ -4,7 +4,7 @@
   <div class="lateload" ></div>
   <div class="title">
     <h4>Eats</h4>
-    <h5>Eat your heartout</h5>
+    <h5>Eat. Share. Save.</h5>
     <p>Pen & Paper + Illustrator + Photoshop</p>
   </div>
 </a> <!-- Closing #row6-->
