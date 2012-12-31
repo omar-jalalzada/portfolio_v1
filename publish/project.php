@@ -29,7 +29,7 @@ if ($cat == "branding") {
 }
 
 
-if ($cat == "mobile") {
+if ($cat == "interactive") {
   if ( $proj == "asda") {
     $p_wrapper_class = 'asda';
     $p_title = "ASDA";
@@ -216,6 +216,4 @@ else {
   echo "</div> <!-- Ending #Wrapper -->";  
 }
 
-?>
-
-<?php include("footer.php"); ?>
+?> <?php include("footer.php"); ?>

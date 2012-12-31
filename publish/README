@@ -1,3 +1,14 @@
 OMAR JALALZADA'S PORTFOLIO
 
+For pushing updates live, 
+
+do the following
+
+- navigate to the build folder and run the following command
+'ant build'
+
+- Then push all the content inside the 'publish' folder to 
+'/home/ojtwiste/public_html'
+
+
 Last updated: November/2010

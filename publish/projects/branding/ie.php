@@ -2,7 +2,8 @@
   <p>
     <span class="info_title">Island Earth</span>
     <span class="info_content">
-      Organic Farmer Market
+      An organic farmers market located in the heart of San Francisco's financial district.
+      <br> Rebranded in attempts to attract more of of the local crowd.
     </span>
   </p>
 </div>
@@ -35,7 +36,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Stationary</span>
-    <span class="content">Letterhead and envelope</span>
+    <!-- <span class="content">Letterhead and envelope</span> -->
   </p>
 </div>
 
@@ -67,7 +68,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Indoor Sign-age</span>
-    <span class="content">Indoor Branding</span>
+    <!-- <span class="content">Indoor Branding</span> -->
   </p>
 </div> 
 

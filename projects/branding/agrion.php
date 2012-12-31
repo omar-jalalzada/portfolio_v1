@@ -2,9 +2,9 @@
   <p>
     <span class="info_title">Agrion</span>
     <span class="info_content">
-      Networking companies and associates in more effective business related issues.<br>
-      Agrion brings together entrepreneurs, investors and corporations 
-      involved in energy, clean-tech, raw materials, sustainable development, mobility and urban management.
+      I was assigned to present a rebranding concepts for Agrion.
+      <br>This project was presented to the team in San Francisco, CA and Paris, France for review.
+      <br>Agrion brings together entrepreneurs, investors and corporations involved in energy, clean-tech, raw materials, sustainable development, mobility and urban management.
     </span>
   </p>
 </div>
@@ -14,7 +14,6 @@
   <p class="title">
     <span class="header">Logo</span>
     <span class="content">
-    Focusing on four main messages:<br>
     Connecting<br>
     Sustainability<br>
     Development<br>
@@ -27,7 +26,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Color Palette</span>
-    <span class="content">Brand's color pallete</span>
+    <span class="content">Brand's color palette</span>
   </p>
 </div>
 
@@ -51,22 +50,22 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Online</span>
-    <span class="content">E-mail and social platform's template</span>
+    <span class="content">Template for emails and social platforms</span>
   </p>
 </div> 
 
 <div class="img" id="img6">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Website</span>
-    <span class="content">Home Page</span>
+    <span class="header">Website I</span>
+    <span class="content">Homepage</span>
   </p>
 </div>
 
 <div class="img" id="img7">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Website</span>
-    <span class="content">Blog</span>
+    <span class="header">Website II</span>
+    <span class="content">Blog page</span>
   </p>
 </div> 

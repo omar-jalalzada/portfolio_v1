@@ -1,6 +1,6 @@
 
 
-<a class="row" href="project.php?cat=mobile&proj=eats" id="row13">
+<a class="row" href="project.php?cat=interactive&proj=eats" id="row13">
   <div class="lateload" ></div>
   <div class="title">
     <h4>Eats</h4>
@@ -11,7 +11,7 @@
 
 
 <!-- <a class="row" href="project.php?cat=mobile&proj=asda" id="row1"> -->
-<a class="row" href="project.php?cat=mobile&proj=invitrogen" id="row1">
+<a class="row" href="project.php?cat=interactive&proj=invitrogen" id="row1">
 
   <div class="lateload" ></div>
   <div class="title">

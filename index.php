@@ -2,18 +2,13 @@
       
       <div id="wrapper">
       <?php include("nav.php"); ?>
-<!--
-        <div class="box" id="box4"></div>
-        <div class="box" id="box5"></div>
--->
-
 
         <!-- <a class="box" href="project.php?cat=web&proj=virtus" id="box6"> -->
-        <a class="box" href="http://virtusrg.com/" id="box6">
+        <a class="box" href="project.php?cat=interactive&proj=eats" id="box6">
           <div class="lateload" ></div>
           <div class="title">
-            <h4>Virtus</h4>
-            <h5>Web Design/Dev</h5>
+            <h4>Eats</h4>
+            <h5>UI Design</h5>
           </div>
         </a> <!-- Closing #box6 -->
         

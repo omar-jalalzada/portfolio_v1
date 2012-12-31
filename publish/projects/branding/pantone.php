@@ -1,11 +1,10 @@
 <div class="info">
   <p>
-    <span class="info_title">Pantone's Tell - a - Tone</span>
+    <span class="info_title">Pantone's Tell-a-Tone</span>
     <span class="info_content">
-      This time Pantone LLC takes another step to bring you the highest quality of product 
-      line with the new customizable Tell-a-Tone. This gadget gives you an enhanced experience with colors that surround you. 
-      It tells you specific mixtures, numbers and color codes - right in you own hand held device with 99.9% accuracy.
-
+      Pantone takes another step to bring you the highest quality of color readers with the new customizable Tell-a-Tone. 
+      <br>This gadget enables you to experience colors that surround you the way it has never been done before. 
+      <br>Tell-a-Tone can read colors off any surfaces with 99.9% accuracy.
     </span>
   </p>
 </div>
@@ -13,8 +12,10 @@
 <div class="img" id="img1">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Product Shot</span>
-    <span class="content">Rendered in Cinema 4D, texture mapping and other materials were designed in Illustrator</span>
+    <span class="header">Tell-a-Tone</span>
+    <span class="content">
+      Because your
+      <br> world is full of colors</span>
   </p>
 </div>
 
@@ -22,7 +23,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Product Shot</span>
-    <span class="content">Rendered in Cinema 4D, texture mapping and other materials were designed in Illustrator</span>
+    <span class="content">Light, portable and it can fit in any pocket</span>
   </p>
 </div>
 
@@ -30,7 +31,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Product Demonstration</span>
-    <span class="content">Using a stock iPhone4 3D model, we are demonstrating how to product attaches to the hand held device</span>
+    <span class="content">Plug it in your smartphone's headphone jack and its ready to go</span>
   </p>
 </div>
 
@@ -38,15 +39,15 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Tell-a-Tone In Action</span>
-    <span class="content">Scanning the green bars on the business cards, reveals the information about the specific type of color used to while printing the business card.</span>
+    <span class="content">Scanning the green bars on the business cards, reveals the information about the specific type of color used while printing</span>
   </p>
 </div>
 
 <div class="img" id="img5">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Cross Platform Application UI/UX sample</span>
-    <span class="content">Demonstrating the mobile application across variety of hand held devices</span>
+    <span class="header">Cross Platform UI/UX Design</span>
+    <span class="content">Demonstrating the application design across variety of mobile devices</span>
   </p>
 </div> 
 
@@ -54,7 +55,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Poster Design</span>
-    <span class="content">Focusing on the main features of the device, we are using the visual hierarchy to quickly convey the information for by-passers</span>
+    <span class="content">Focusing on the main features of the device, we are using the visual hierarchy to hold a magazine by-passer's attention</span>
   </p>
 </div>
 
@@ -62,7 +63,7 @@
   <div class="lateload" ></div>
   <p class="title">
     <span class="header">Poster Implementation</span>
-    <span class="content">Using key location to demonstrate how the Poster will be implemented in an outside environment</span>
+    <span class="content">Demonstrating placements and brand engadment in public places</span>
   </p>
 </div> 
 
@@ -77,7 +78,7 @@
 <div class="img" id="img9">
   <div class="lateload" ></div>
   <p class="title">
-    <span class="header">Web Site Mock UP</span>
-    <span class="content">Global network for clean-tech companies</span>
+    <span class="header">Web Site Mock-up</span>
+    <span class="content">Main landing page</span>
   </p>
 </div>  

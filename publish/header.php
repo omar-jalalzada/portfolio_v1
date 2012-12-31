@@ -58,16 +58,7 @@ if ( $about == "bali") {
   $wrapper_class = 'about_me';
 }
 
-?>
-
-
-<!doctype html>
-<html class=no-js lang=en>
-<head>
-	<meta charset=utf-8>
-	<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-	
-  <?php
+?> <!doctype html> <html class=no-js lang=en> <head> <meta charset=utf-8> <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"> <?php
    
   if ($p_title == null) {
     echo "<title>$title</title>"; 
@@ -75,58 +66,4 @@ if ( $about == "bali") {
     echo "<title>$p_title</title>";
   }
   
-  ?>
-	
-	<meta name=description content="Omar's Jalalzada Portfolio Site">
-	<meta name=author content="Omar Jalalzada">
-  <meta name=Copyright content="Copyright � 2011 Omar Jalalzada">
-  <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-	<link rel=stylesheet href='assets/css/57109e9.css'>
-
- 
-  
-</head>
-<body class=home_page>
-      <div id=splash_placeholder></div>
-      
-  
-  <div id=contact_me_container>
-    <div id=contact_content>
-      <p>
-          <a class=contact href="mailto:omar@ojtwisted.com">
-            <span class='icon lateload'></span>
-            omar@ojtwisted.com
-          </a>
-        
-          <a href="tel:16503880106">
-            <span class='icon lateload'></span>
-            (650) 388-0106
-          </a>
-        
-          <a class=twitter target=_blank href="http://twitter.com/#!/ojtwisted">
-            <span class='icon lateload'></span>
-            Follow me on Twitter
-          </a>
-        
-          <a class=linkedin target=_blank href="http://www.linkedin.com/pub/omar-jalalzada/1b/bb2/93b">
-            <span class='icon lateload'></span>
-            Connect on Linkedin
-          </a>
-        
-      </p>
-    </div>
-    <div id=bg_module></div>
-  </div>
-
-  <div id=container>
-    <div id=contact_me>
-      <span class=content>CONTACT ME</span>
-    </div>
-    
-    <div id=header> 
-      <div id=logo></div>
-      <div id=title></div>
-    </div>
-    
-      	<div id=main role=main>
+  ?> <meta name=description content="Omar's Jalalzada Portfolio Site"> <meta name=author content="Omar Jalalzada"> <meta name=Copyright content="Copyright � 2011 Omar Jalalzada"> <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <link rel=stylesheet href='assets/css/1b33a67.css'> </head> <body class=home_page> <div id=splash_placeholder></div> <div id=contact_me_container> <div id=contact_content> <p> <a class=contact href="mailto:omar@ojtwisted.com"> <span class='icon lateload'></span> omar@ojtwisted.com </a> <a href="tel:16503880106"> <span class='icon lateload'></span> (650) 388-0106 </a> <a class=twitter target=_blank href="http://twitter.com/#!/ojtwisted"> <span class='icon lateload'></span> Follow me on Twitter </a> <a class=linkedin target=_blank href="http://www.linkedin.com/pub/omar-jalalzada/1b/bb2/93b"> <span class='icon lateload'></span> Connect on Linkedin </a> </p> </div> <div id=bg_module></div> </div> <div id=container> <div id=contact_me> <span class=content>CONTACT ME</span> </div> <div id=header> <div id=logo></div> <div id=title></div> </div> <div id=main role=main>
