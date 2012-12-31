@@ -1900,236 +1900,248 @@ body.ipad {
 #container .eats #img10 .pic {
   background: url("../img/project/eats/10.jpg");
 }
-/* line 388, ../sass/_project.scss */
+/* line 384, ../sass/_project.scss */
+#container .eats #img11 .pic {
+  background: url("../img/project/eats/11.jpg");
+}
+/* line 389, ../sass/_project.scss */
+#container .eats #img12 .pic {
+  background: url("../img/project/eats/12.jpg");
+}
+/* line 394, ../sass/_project.scss */
+#container .eats #img13 .pic {
+  background: url("../img/project/eats/13.jpg");
+}
+/* line 403, ../sass/_project.scss */
 #container .styling .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 397, ../sass/_project.scss */
+/* line 412, ../sass/_project.scss */
 #container .styling #img1 .pic {
   background: url("../img/project/photography/dup/1.jpg") no-repeat center;
 }
-/* line 402, ../sass/_project.scss */
+/* line 417, ../sass/_project.scss */
 #container .styling #img2 .pic {
   background: url("../img/project/photography/dup/2.jpg") no-repeat center;
 }
-/* line 407, ../sass/_project.scss */
+/* line 422, ../sass/_project.scss */
 #container .styling #img3 .pic {
   background: url("../img/project/photography/dup/3.jpg") no-repeat center;
 }
-/* line 412, ../sass/_project.scss */
+/* line 427, ../sass/_project.scss */
 #container .styling #img4 .pic {
   background: url("../img/project/photography/dup/4.jpg") no-repeat center;
 }
-/* line 417, ../sass/_project.scss */
+/* line 432, ../sass/_project.scss */
 #container .styling #img5 .pic {
   background: url("../img/project/photography/dup/5.jpg") no-repeat center;
 }
-/* line 422, ../sass/_project.scss */
+/* line 437, ../sass/_project.scss */
 #container .styling #img6 .pic {
   background: url("../img/project/photography/dup/6.jpg") no-repeat center;
 }
-/* line 427, ../sass/_project.scss */
+/* line 442, ../sass/_project.scss */
 #container .styling #img7 .pic {
   background: url("../img/project/photography/dup/7.jpg") no-repeat center;
 }
-/* line 432, ../sass/_project.scss */
+/* line 447, ../sass/_project.scss */
 #container .styling #img8 .pic {
   background: url("../img/project/photography/dup/8.jpg") no-repeat center;
 }
-/* line 437, ../sass/_project.scss */
+/* line 452, ../sass/_project.scss */
 #container .styling #img9 .pic {
   background: url("../img/project/photography/dup/9.jpg") no-repeat center;
 }
-/* line 442, ../sass/_project.scss */
+/* line 457, ../sass/_project.scss */
 #container .styling #img10 .pic {
   background: url("../img/project/photography/dup/10.jpg") no-repeat center;
 }
-/* line 447, ../sass/_project.scss */
+/* line 462, ../sass/_project.scss */
 #container .styling #img11 .pic {
   background: url("../img/project/photography/dup/11.jpg") no-repeat center;
 }
-/* line 452, ../sass/_project.scss */
+/* line 467, ../sass/_project.scss */
 #container .styling #img12 .pic {
   background: url("../img/project/photography/dup/12.jpg") no-repeat center;
 }
-/* line 460, ../sass/_project.scss */
+/* line 475, ../sass/_project.scss */
 #container .grief .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 467, ../sass/_project.scss */
+/* line 482, ../sass/_project.scss */
 #container .grief #img1 .pic {
   background: url("../img/project/photography/gr/1.jpg") no-repeat center;
 }
-/* line 472, ../sass/_project.scss */
+/* line 487, ../sass/_project.scss */
 #container .grief #img2 .pic {
   background: url("../img/project/photography/gr/2.jpg") no-repeat center;
 }
-/* line 477, ../sass/_project.scss */
+/* line 492, ../sass/_project.scss */
 #container .grief #img3 .pic {
   background: url("../img/project/photography/gr/3.jpg") no-repeat center;
 }
-/* line 482, ../sass/_project.scss */
+/* line 497, ../sass/_project.scss */
 #container .grief #img4 .pic {
   background: url("../img/project/photography/gr/4.jpg") no-repeat center;
 }
-/* line 491, ../sass/_project.scss */
+/* line 506, ../sass/_project.scss */
 #container .androgyny .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 498, ../sass/_project.scss */
+/* line 513, ../sass/_project.scss */
 #container .androgyny #img1 .pic {
   background: url("../img/project/photography/andro/1.jpg") no-repeat center;
 }
-/* line 503, ../sass/_project.scss */
+/* line 518, ../sass/_project.scss */
 #container .androgyny #img2 .pic {
   background: url("../img/project/photography/andro/2.jpg") no-repeat center;
 }
-/* line 508, ../sass/_project.scss */
+/* line 523, ../sass/_project.scss */
 #container .androgyny #img3 .pic {
   background: url("../img/project/photography/andro/3.jpg") no-repeat center;
 }
-/* line 513, ../sass/_project.scss */
+/* line 528, ../sass/_project.scss */
 #container .androgyny #img4 .pic {
   background: url("../img/project/photography/andro/4.jpg") no-repeat center;
 }
-/* line 518, ../sass/_project.scss */
+/* line 533, ../sass/_project.scss */
 #container .androgyny #img5 .pic {
   background: url("../img/project/photography/andro/5.jpg") no-repeat center;
 }
-/* line 523, ../sass/_project.scss */
+/* line 538, ../sass/_project.scss */
 #container .androgyny #img6 .pic {
   background: url("../img/project/photography/andro/6.jpg") no-repeat center;
 }
-/* line 531, ../sass/_project.scss */
+/* line 546, ../sass/_project.scss */
 #container .future .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 538, ../sass/_project.scss */
+/* line 553, ../sass/_project.scss */
 #container .future #img1 .pic {
   background: url("../img/project/imaging/3786/1.jpg") no-repeat center;
 }
-/* line 543, ../sass/_project.scss */
+/* line 558, ../sass/_project.scss */
 #container .future #img2 .pic {
   background: url("../img/project/imaging/3786/2.jpg") no-repeat center;
 }
-/* line 548, ../sass/_project.scss */
+/* line 563, ../sass/_project.scss */
 #container .future #img3 .pic {
   background: url("../img/project/imaging/3786/3.jpg") no-repeat center;
 }
-/* line 557, ../sass/_project.scss */
+/* line 572, ../sass/_project.scss */
 #container .afgh #img1 .pic {
   background: url("../img/project/afgh/1.jpg") no-repeat center;
 }
-/* line 562, ../sass/_project.scss */
+/* line 577, ../sass/_project.scss */
 #container .afgh #img2 .pic {
   background: url("../img/project/afgh/2.jpg") no-repeat center;
 }
-/* line 567, ../sass/_project.scss */
+/* line 582, ../sass/_project.scss */
 #container .afgh #img3 .pic {
   background: url("../img/project/afgh/3.jpg") no-repeat center;
 }
-/* line 572, ../sass/_project.scss */
+/* line 587, ../sass/_project.scss */
 #container .afgh #img4 .pic {
   background: url("../img/project/afgh/4.jpg") no-repeat center;
 }
-/* line 577, ../sass/_project.scss */
+/* line 592, ../sass/_project.scss */
 #container .afgh #img5 .pic {
   background: url("../img/project/afgh/5.jpg") no-repeat center;
 }
-/* line 586, ../sass/_project.scss */
+/* line 601, ../sass/_project.scss */
 #container .idiom .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 594, ../sass/_project.scss */
+/* line 609, ../sass/_project.scss */
 #container .idiom #img1 .pic {
   background: url("../img/project/idiom/1.jpg") no-repeat center;
 }
-/* line 599, ../sass/_project.scss */
+/* line 614, ../sass/_project.scss */
 #container .idiom #img2 .pic {
   background: url("../img/project/idiom/2.jpg") no-repeat center;
 }
-/* line 604, ../sass/_project.scss */
+/* line 619, ../sass/_project.scss */
 #container .idiom #img3 .pic {
   background: url("../img/project/idiom/3.jpg") no-repeat center;
 }
-/* line 613, ../sass/_project.scss */
+/* line 628, ../sass/_project.scss */
 #container .invitrogen .img .pic {
   width: 96% !important;
   height: 550px !important;
   padding: 10px 2%;
 }
-/* line 620, ../sass/_project.scss */
+/* line 635, ../sass/_project.scss */
 #container .invitrogen #img1 .pic {
   background: url("../img/project/invitrogen/homepage.jpg") no-repeat center;
 }
-/* line 625, ../sass/_project.scss */
+/* line 640, ../sass/_project.scss */
 #container .invitrogen #img2 .pic {
   background: url("../img/project/invitrogen/search.jpg") no-repeat center;
 }
-/* line 630, ../sass/_project.scss */
+/* line 645, ../sass/_project.scss */
 #container .invitrogen #img3 .pic {
   background: url("../img/project/invitrogen/pdp.jpg") no-repeat center;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 642, ../sass/_project.scss */
+  /* line 657, ../sass/_project.scss */
   #sub_nav ul {
     left: 55px !important;
   }
 
-  /* line 649, ../sass/_project.scss */
+  /* line 664, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 315px !important;
   }
 
-  /* line 656, ../sass/_project.scss */
+  /* line 671, ../sass/_project.scss */
   #wrapper.eats .img .pic {
     background-size: 100% !important;
     height: 313px !important;
   }
 
-  /* line 663, ../sass/_project.scss */
+  /* line 678, ../sass/_project.scss */
   #wrapper.styling .img .pic, #wrapper.grief .img .pic, #wrapper.androgyny .img .pic, #wrapper.future .img .pic, #wrapper.idiom .img .pic {
     height: 410px !important;
   }
 }
 @media only screen and (max-width: 481px) {
-  /* line 673, ../sass/_project.scss */
+  /* line 688, ../sass/_project.scss */
   #sub_nav ul {
     left: 0px !important;
   }
 
-  /* line 682, ../sass/_project.scss */
+  /* line 697, ../sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header {
     height: 107px !important;
   }
-  /* line 684, ../sass/_project.scss */
+  /* line 699, ../sass/_project.scss */
   #wrapper.project_wrapper #box3.nav #header #nav {
     height: 40px !important;
   }
-  /* line 690, ../sass/_project.scss */
+  /* line 705, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 255px !important;
     width: 96% !important;
   }
-  /* line 694, ../sass/_project.scss */
+  /* line 709, ../sass/_project.scss */
   #wrapper.project_wrapper .img p {
     width: 96% !important;
     margin-top: 10px !important;
   }
 }
 @media only screen and (max-width: 481px) and (orientation: portrait) {
-  /* line 716, ../sass/_project.scss */
+  /* line 731, ../sass/_project.scss */
   #wrapper.project_wrapper .img .pic {
     height: 168px !important;
   }

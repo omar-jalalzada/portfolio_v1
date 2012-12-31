@@ -5,7 +5,7 @@
   <div class="title">
     <h4>Mohammad Ali</h4>
     <h5>A tribute to the legend</h5>
-<!--             <h5>Global network for cleantech compaines</h5> -->
+    <p> AfterEffects + Photoshop + Logic</p>
   </div>
 </div> <!-- Closing #row1 -->
 
@@ -16,6 +16,7 @@
   <div class="title">
     <h4>Stop Smoking </h4>
     <h5>A very dramatic way of helping individuals to fight that initial tobacco cravings.</h5>
+    <p> AfterEffects + Photoshop + Illustrator + Logic</p>
   </div>
 </div> <!-- Closing #row2 -->
 
@@ -37,6 +38,7 @@
   <div class="title">
     <h4>Kabul Dream</h4>
     <h5>Kabul Singing</h5>
+    <p>Logic</p>
   </div>
 </div> <!-- Closing #row4 -->
 
@@ -48,6 +50,7 @@
   <div class="title">
     <h4>Asian Fusion</h4>
     <h5>Mixing beats and samples in Logic to compose a down tempo track</h5>
+    <p>Logic</p>
   </div>
   
 </div> <!-- Closing #row5 -->
@@ -60,6 +63,7 @@
   <div class="title">
     <h4>Destiny of Men</h4>
     <h5>Custom sound made from basic synthesis with royalty free spoken words of president Lyndon Baines Johnson addressing the Joint Session of Congress on voting legislation </h5>
+    <p>Logic</p>
   </div>
 </a> <!-- Closing #row6 -->
 
@@ -70,6 +74,7 @@
   <div class="title">
     <h4>I have his dream</h4>
     <h5>Dr.King's most remarkable speech about racial equality and an end to discrimination.</h5>
+    <p>Logic</p>
   </div>
 </div> <!-- Closing #row7 -->
 

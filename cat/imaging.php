@@ -3,7 +3,7 @@
   <div class="title">
     <h4>Apple Care</h4>
     <h5>Protection Plan</h5>
-<!--             <h5>Global network for cleantech compaines</h5> -->
+    <p> Canon RebelXSi DSLR + Photoshop + Lightroom</p>
   </div>
 </a> <!-- Closing #row1 -->
 
@@ -12,6 +12,7 @@
   <div class="title">
     <h4>Duplicitous</h4>
     <h5>Styling Project</h5>
+    <p> Canon40D DSLR + Photoshop + Appreture</p>
   </div>
 </a> <!-- Closing #row2 -->
 
@@ -28,7 +29,7 @@
   <div class="title">
     <h4>Human Grief</h4>
     <h5>Exaggerated expression</h5>
-  </div>
+    <p> Canon RebelXSi DSLR + Photoshop + Lightroom</p>
 </a> <!-- Closing #row4 -->
 
 <a class="row" href="project.php?cat=ip&proj=andgny" id="row5">
@@ -36,6 +37,7 @@
   <div class="title">
     <h4>Androgyny</h4>
     <h5>Fashion + Controversy</h5>
+    <p> Canon40D DSLR + Photoshop + Lightroom</p>
   </div>
 </a> <!-- Closing #row5 -->
 
