@@ -80,7 +80,7 @@ if ( $about == "bali") {
 	<meta name="description" content="Omar's Jalalzada Portfolio Site">
 	<meta name="author" content="Omar Jalalzada">
   <meta name="Copyright" content="Copyright © 2011 Omar Jalalzada">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="assets/css/main.css">
 <!--   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->

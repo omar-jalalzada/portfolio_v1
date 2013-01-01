@@ -21,7 +21,7 @@
         }
       }
       .nav_container {
-        width: 458px;
+        width: 460px;
         float: right;
         overflow: hidden;
         margin-top: 10px;
@@ -365,9 +365,10 @@
           height: auto !important;
           margin: 0 2% !important;
           #main_title {
-            margin-top: 10px;
+            margin-top: 20px;
             h2 {
               text-align: center;
+              font-size: 32px;
             }
           }
           .nav_container {
@@ -448,6 +449,9 @@
       }
       #box3.nav {
         width: $ipad_t_width;
+        #main_title {
+          margin-top: 60px;
+        }
         .nav_container {
           // border: 1px solid;
           // width: 470px;

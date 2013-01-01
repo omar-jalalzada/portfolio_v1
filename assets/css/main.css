@@ -754,7 +754,7 @@ $t_neg_margin: -248px;
 }
 /* line 23, ../sass/_style.scss */
 #container #wrapper .nav .nav_container {
-  width: 458px;
+  width: 460px;
   float: right;
   overflow: hidden;
   margin-top: 10px;
@@ -1134,62 +1134,67 @@ $t_neg_margin: -248px;
   }
   /* line 367, ../sass/_style.scss */
   body #container #wrapper #box3.nav #main_title {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   /* line 369, ../sass/_style.scss */
   body #container #wrapper #box3.nav #main_title h2 {
     text-align: center;
+    font-size: 32px;
   }
-  /* line 373, ../sass/_style.scss */
+  /* line 374, ../sass/_style.scss */
   body #container #wrapper #box3.nav .nav_container {
     width: 100% !important;
     float: none;
   }
-  /* line 376, ../sass/_style.scss */
+  /* line 377, ../sass/_style.scss */
   body #container #wrapper #box3.nav .nav_container a {
     padding: 0 5px;
   }
-  /* line 379, ../sass/_style.scss */
+  /* line 380, ../sass/_style.scss */
   body #container #wrapper #box3.nav .nav_container #sub_nav {
     margin-top: 10px;
   }
-  /* line 406, ../sass/_style.scss */
+  /* line 407, ../sass/_style.scss */
   body #container #wrapper #box2 {
     display: none;
   }
-  /* line 409, ../sass/_style.scss */
+  /* line 410, ../sass/_style.scss */
   body #container #wrapper #box21 {
     display: block !important;
   }
 }
 /*  and   (min-device-width: 768px) and (max-device-width: 1024px) and asdfasdfasd */
 @media only screen and (max-width: 768px) {
-  /* line 420, ../sass/_style.scss */
+  /* line 421, ../sass/_style.scss */
   #container {
     width: 758px;
     margin: 0px auto;
     min-height: 960px;
   }
-  /* line 424, ../sass/_style.scss */
+  /* line 425, ../sass/_style.scss */
   #container #wrapper {
     overflow: hidden;
   }
-  /* line 439, ../sass/_style.scss */
+  /* line 440, ../sass/_style.scss */
   #container #wrapper .box {
     width: 179px !important;
     height: 179px !important;
     margin: 5px !important;
     float: left;
   }
-  /* line 446, ../sass/_style.scss */
+  /* line 447, ../sass/_style.scss */
   #container #wrapper #box2 {
     display: none;
   }
-  /* line 449, ../sass/_style.scss */
+  /* line 450, ../sass/_style.scss */
   #container #wrapper #box3.nav {
     width: 558px !important;
   }
-  /* line 461, ../sass/_style.scss */
+  /* line 452, ../sass/_style.scss */
+  #container #wrapper #box3.nav #main_title {
+    margin-top: 60px;
+  }
+  /* line 465, ../sass/_style.scss */
   #container #wrapper #box21 {
     display: block !important;
   }
