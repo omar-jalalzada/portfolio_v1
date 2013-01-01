@@ -38,7 +38,6 @@
 
 
         <a class="box" href="http://m.invitrogen.com" target="_blank" id="box10">
-<!--         <a class="box" href="project.php?cat=mobile&proj=invitrogen" id="box6"> -->
           <div class="lateload" ></div>
           <div class="title">
             <h4>Invitrogen</h4>
@@ -46,7 +45,6 @@
           </div>
         </a> <!-- Closing #box14 -->
         
-        <!-- <a class="box" href="projects/dossier.html" id="box11"> -->
         <a class="box" onclick="not_available();" id="box11">
           <div class="lateload"></div>
           <div class="title">
